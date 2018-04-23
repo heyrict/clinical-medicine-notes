@@ -13,8 +13,7 @@ gt
 12> 5.17 3,4,5
 gt
 13> 5.23 Wed 3,4,5 K224
-
--->
+ -->
 
 细胞和组织的适应与损伤
 ------
@@ -269,7 +268,7 @@ gt
          + 导致侧枝循环的形成
 
 1. 重要器官的淤血
-    - 肺淤血
+    - [肺淤血](#CongestionLung)
         + 病因: 左心衰
         + 形态
             * 肉眼：肺体积增大，暗红色或棕色，变重变硬。 **肺褐色硬化**
@@ -279,7 +278,7 @@ gt
         + 临床病理现象
             * 气促、发绀
             * 粉红色或棕色、泡沫样痰
-    - 肝淤血
+    - [肝淤血](#ChronicCongestionLiver)
         + 病因: 右心衰、肝静脉/下腔静脉回流受阻
         + 形态
             * 肉眼：黄色和暗红色相间排列。 **槟榔肝**
@@ -313,7 +312,7 @@ gt
         + 形态
             * 肉眼：呈灰白色，表面粗糙，质硬（心瓣膜内呈串珠样小结节）
             * 镜下：主要由血小板小梁（淡红，均质状）与少量纤维蛋白构成
-    - 混合血栓（体部）
+    - [混合血栓（体部）](#MixedThrombus)
         + 部位：血流极度缓慢或停止处。形成过程与血管外凝血相同。
         + 凝固过程
             * 血小板小梁形成
@@ -328,7 +327,7 @@ gt
         + 形态
             * 肉眼：暗红色，光滑湿润，无粘连。可脱落。
             * 镜下：纤维素网眼内充满红细胞、白细胞
-    - 透明血栓（微血栓/纤维素性血栓）
+    - [透明血栓（微血栓/纤维素性血栓）](#DIC)
         + 组成：纤维蛋白、血小板
         + 后果
             * 微循环阻塞导致缺血
@@ -354,7 +353,7 @@ gt
 1. 血栓的结局
     - 软化、溶解、吸收：主要是微小血栓
     - 栓塞：脱落成为栓子
-    - 机化、再通：肉芽组织增生，形成沟通性裂隙
+    - [机化、再通](#Recanalization)：肉芽组织增生，形成沟通性裂隙
     - 钙化：形成动/静脉石。机化后的血栓在纤维组织玻璃样变后也可钙化。
 
 1. 血栓对机体的影响
@@ -467,7 +466,7 @@ gt
     - 贫血性梗死
         + 发生特点：组织结构致密、侧枝循环不丰富，如心、肾、脾、脑。
         + 常见类型
-            * 脾、肾梗死
+            * 脾、[肾梗死](#ArnemicInfarctKidney)
             * 脑梗死
             * 心肌梗死
     - 出血性梗死
@@ -525,7 +524,7 @@ gt
 1. 基本病理变化 <!--IMPORTANT-->
     - 变质：炎症局部组织发生地变性和坏死
         + 原因：直接损伤或局部循环障碍与炎症反应产物共同作用
-    - 渗出：血管内血浆和白细胞（渗出物）通过血管壁渗出的过程
+    - [渗出](#Inflammation)：血管内血浆和白细胞（渗出物）通过血管壁渗出的过程
         + 过程
             * 血管反应
             * 血浆渗出
@@ -706,7 +705,7 @@ gt
         + 好发部位：黏膜、浆膜、肺
         + 主要原因：细菌毒素（白喉、痢疾、肺炎等）、尿素/汞中毒
         + 常见疾病
-            * 心包膜纤维素性炎症：绒毛心（发生在心包膜脏层）
+            * 心包膜纤维素性炎症：[绒毛心](#CorVillogum)（发生在心包膜脏层）
             * 肺纤维素性炎症：大叶性肺炎（肺肉质变）
             * 黏膜纤维素性炎症：伪膜性炎（伪膜由纤维素、坏死组织、炎细胞组成）
         + 结局：溶解吸收/机化
@@ -732,7 +731,7 @@ gt
     - 常见疾病
         + 化脓性脑膜炎（流脑）
     - 结局：溶解吸收/机化
-1. 蜂窝组织炎：疏松结缔组织弥漫性化脓性炎症
+1. [蜂窝组织炎](#PhlegmonousInflammation)：疏松结缔组织弥漫性化脓性炎症
     - 原因：链球菌感染，分泌链激酶、透明质酸酶
     - 常见疾病
         + 肌组织蜂窝组织炎
@@ -769,10 +768,10 @@ gt
         + 螺旋体感染：梅毒
         + 自身免疫性疾病：风湿病
         + 组织异物：手术缝线、石棉、滑石粉
-    - 肉芽肿组成（结节中心向外）
+    - [肉芽肿组成](#Tuberculosis)（结节中心向外）
         + 中央：干酪样坏死
         + 周围：上皮样细胞（巨噬细胞转变）
-        + 散在：多核巨噬细胞（朗阁汉斯巨细胞、异物巨细胞）
+        + 散在：多核巨噬细胞（[朗阁汉斯巨细胞](#LangerhansCell)、异物巨细胞）
         + 外侧：大量淋巴细胞（T细胞）浸润
 
 1. 慢性炎症的特殊类型
@@ -1055,7 +1054,8 @@ gt
         - 纤维斑块
             - 灰白色斑块隆起于内膜表面
             - 镜下：斑块表面可见纤维帽
-        - 粥样斑块(atheromatous plaque, atheroma) <!--TODO: Add-->
+        - 粥样斑块(atheromatous plaque, atheroma)
+            - 内膜表面灰白色斑块隆起明显，并向深部压迫中膜
     - 主要继发性病变
         - 斑块内出血：红细胞由动脉腔漏入病灶
             - 斑块破溃，管腔内血液流入
@@ -1089,12 +1089,12 @@ gt
     - 分级：按管腔狭窄分四级
 
 1. 冠状动脉粥样硬化性心脏病(CHD)
-    - 心绞痛(angina pectoris) <!--TODO: Add def-->
+    - 心绞痛(angina pectoris)：心肌暂时性缺血缺氧造成代谢产物堆积，刺激局部交感神经产生紧缩感
         - 稳定性心绞痛
         - 不稳定性心绞痛
         - 变异性心绞痛
     - 心肌梗死(myocardial infarction, MI)
-        - 多发区域：左冠状动脉前室间支支配区域 <!--IMPORTANT-->
+        - 多发区域：左冠状动脉前室间支支配区域（左心室前壁、心尖部、室间隔前⅔ ） <!--IMPORTANT-->
         - 分类
             - 心内膜下心肌梗死：症状较轻
             - 透壁性心肌梗死：坏死区域超过心肌1/3，症状较为明显
@@ -1121,7 +1121,7 @@ gt
 
 1. 原发性高血压
     - 良性高血压（缓进性高血压）
-        - 功能紊乱期
+        - 功能紊乱期：开始表现为间断性全身细小动脉痉挛，其后血压持续性升高
         - 动脉病变期
             - 细动脉硬化（玻璃样变）
             - 小动脉硬化
@@ -1223,20 +1223,43 @@ gt
 
 组织切片
 ------
-![Atrophy](./src/M1a_40x_01.JPG){#Atrophy}
+![Chronic Congestion of Liver](./src/C1_40x_01.JPG){#ChronicCongestionLiver}
+
+![Congestion of Lung](./src/C2_40x_01.JPG){#CongestionLung}
+
+![Mixed Thrombus](./src/C4b_40x_01.JPG){#MixedThrombus}
+
+![Organized Thrombus with Recanalization](./src/C5_10x_01.bmp){#Recanalization}
+
+![DIC](./src/C6a_40x_01.JPG){#DIC}
+
+![Arnemic Infarct of kidney](./src/C8a_40x_02.C8a_40x_02.JPG){#ArnemicInfarctKidney}
 
 ![Coagulation Necrosis](./src/C8a_40x_01.JPG){#CoagulationNecrosis}
 
-![Caseous Necrosis](./src/M6_40x_01.JPG){#CaseousNecrosis}
-
 ![Hyperemia Bleeding Band](./src/C8a_40x_03.JPG){#HyperemiaBleedingBand}
-
-![Granulation Tissue](./src/R1b_40x_01.JPG){#GranulationTissue}
 
 ![Hydropic Degeneration](./src/D7_40x_01.JPG){#HydropicDegeneration}
 
 ![Hyalinosis Degeneration](./src/H9_40x_01.JPG){#HyalinosisDegeneration}
 
+![Cor Villogum](./src/I1a_40x_01.JPG){#CorVillogum}
+
+![Inflammation](./src/L1a_40x_01.JPG){#Inflammation}
+
+![Phlegmonous Inflammation](./src/I7_40x_01.JPG){#PhlegmonousInflammation}
+
+![Atrophy](./src/M1a_40x_01.JPG){#Atrophy}
+
 ![Fatty Degeneration](./src/M4a_10x_01.JPG){#FattyDegeneration}
 
+![Caseous Necrosis](./src/M6_40x_01.JPG){#CaseousNecrosis}
+
+![Langerhans Cell](./src/P1_40x_01.JPG){#LangerhansCell}
+
+![Tuberculosis](./src/P1_40x_02.JPG){#Tuberculosis}
+
+![Granulation Tissue](./src/R1b_40x_01.JPG){#GranulationTissue}
+
 ![Metaplasia](./src/R2_40x_01.JPG){#Metaplasia}
+
