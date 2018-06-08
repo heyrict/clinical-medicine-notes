@@ -1040,7 +1040,7 @@
     Columnar epithelial cells which line the seminiferous tubules and support the
     germ cells are called:
 
-    A. leydig cells. B. sertoli cells. C. spermatogonia. D. spermatocytes. E. spermatids. 
+    A. leydig cells. B. sertoli cells. C. spermatogonia. D. spermatocytes. E. spermatids.
 76. 【单选题】(1分)
 
     植入的部位通常在
@@ -1354,7 +1354,7 @@
     Columnar epithelial cells which line the seminiferous tubules and support the
     germ cells are called？
 
-    A. leydig cells. B. b. sertoli cells. C. spermatogonia. D. spermatocytes. E. spermatids. 
+    A. leydig cells. B. b. sertoli cells. C. spermatogonia. D. spermatocytes. E. spermatids.
 
 99. 【单选题】(1分)
 
