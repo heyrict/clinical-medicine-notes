@@ -1,9 +1,5 @@
 病理学
 ======
-<!-- 实验课: D312/D314 -->
-<!--
-6.13> 6.6 Wed 3,4,5 K224
- -->
 
 细胞和组织的适应与损伤
 ------
@@ -89,7 +85,7 @@
             * 全小叶型
         + 心肌脂肪变性（区别：心肌脂肪浸润）
             * 部位: 乳头肌、心内膜下心肌
-            * 病理变化: **虎斑心**
+            * 病理变化: [**虎斑心**](#TigerHeart)
         + 鉴别方法: 苏丹III染色冰冻切片
     - [玻璃样变性](#HyalinosisDegeneration)
         + 定义: 镜下细胞内或间质中出现HE红染、均质、半透明蛋白质蓄积.
@@ -1061,7 +1057,7 @@
         - 纤维斑块
             - 灰白色斑块隆起于内膜表面
             - 镜下：斑块表面可见纤维帽
-        - 粥样斑块(atheromatous plaque, atheroma)
+        - [粥样斑块(atheromatous plaque, atheroma)](#AtheromatousPlaque)
             - 内膜表面灰白色斑块隆起明显，并向深部压迫中膜
     - 主要继发性病变
         - 斑块内出血：红细胞由动脉腔漏入病灶
@@ -1154,7 +1150,7 @@
         - 炎细胞渗出
         - 基质成分黏液样变性，胶原纤维素样坏死
     - 增生期（肉芽肿期）
-        - **特征性病理改变**：心肌间质小血管附近形成风湿小体(Aschoff Body)
+        - **特征性病理改变**：心肌间质小血管附近形成[风湿小体(Aschoff Body)](#AschoffBody)
     - 瘢痕期（愈合期）
         - 过程：风湿细胞 → 成纤维细胞 → 胶原纤维 → 瘢痕组织
 
@@ -1167,8 +1163,8 @@
 1. 风湿性心脏病
     - 风湿性心内膜炎
         - 部位：二尖瓣，或二尖瓣和主动脉瓣
-            - 二尖瓣：**心房面**
-            - 主动脉瓣：**心室面**
+            - 二尖瓣: **心房面**
+            - 主动脉瓣: **心室面**
         - 特点
             - 瓣膜处形成白色血栓（单行排列，1-2mm粟粒大小，黏着牢固，灰白色半透明赘生物）
             - 左心房后壁形成灰白色马氏斑
@@ -1687,7 +1683,7 @@
 1. 慢性肾小球肾炎
     - 特点：大量肾小球玻璃样变和硬化
     - 病理变化
-        - 颗粒性固缩肾
+        - 继发性颗粒性固缩肾
         - 镜下：大量肾小球纤维化及玻璃样变，肾小管萎缩纤维化消失；存留肾单位代偿性肥大
     - 临床症状
         - 多尿、夜尿、低比重尿
@@ -1997,6 +1993,19 @@
     - 病因：结核杆菌
     - 特征：非结核杆菌病灶，无红肿热痛的表现
 
+### 伤寒
+1. [伤寒巨噬细胞](#Typhoid)
+1. 分期
+    - 髓样肿胀期
+    - 坏死期
+    - 溃疡期
+    - 愈合期
+
+### 细菌性痢疾
+1. 炎症：假膜性炎
+
+### 流行性乙型脑炎
+1. 浸润细胞: **淋巴细胞**
 
 寄生虫病
 ------
@@ -2004,45 +2013,45 @@
 
 组织切片
 ------
-![Chronic Congestion of Liver](./src/C1_40x_01.JPG){#ChronicCongestionLiver}
+![Chronic Congestion of Liver](./src/C1_40x_01.jpg){#ChronicCongestionLiver}
 
-![Congestion of Lung](./src/C2_40x_01.JPG){#CongestionLung}
+![Congestion of Lung](./src/C2_40x_01.jpg){#CongestionLung}
 
-![Mixed Thrombus](./src/C4b_40x_01.JPG){#MixedThrombus}
+![Mixed Thrombus](./src/C4b_40x_01.jpg){#MixedThrombus}
 
 ![Organized Thrombus with Recanalization](./src/C5_10x_01.bmp){#Recanalization}
 
-![DIC](./src/C6a_40x_01.JPG){#DIC}
+![DIC](./src/C6a_40x_01.jpg){#DIC}
 
-![Arnemic Infarct of kidney](./src/C8a_40x_02.C8a_40x_02.JPG){#ArnemicInfarctKidney}
+![Arnemic Infarct of kidney](./src/C8a_40x_02.C8a_40x_02.jpg){#ArnemicInfarctKidney}
 
-![Coagulation Necrosis](./src/C8a_40x_01.JPG){#CoagulationNecrosis}
+![Coagulation Necrosis](./src/C8a_40x_01.jpg){#CoagulationNecrosis}
 
-![Hyperemia Bleeding Band](./src/C8a_40x_03.JPG){#HyperemiaBleedingBand}
+![Hyperemia Bleeding Band](./src/C8a_40x_03.jpg){#HyperemiaBleedingBand}
 
-![Hydropic Degeneration](./src/D7_40x_01.JPG){#HydropicDegeneration}
+![Hydropic Degeneration](./src/D7_40x_01.jpg){#HydropicDegeneration}
 
-![Hyalinosis Degeneration](./src/H9_40x_01.JPG){#HyalinosisDegeneration}
+![Hyalinosis Degeneration](./src/H9_40x_01.jpg){#HyalinosisDegeneration}
 
-![Cor Villogum](./src/I1a_40x_01.JPG){#CorVillogum}
+![Cor Villogum](./src/I1a_40x_01.jpg){#CorVillogum}
 
-![Inflammation](./src/L1a_40x_01.JPG){#Inflammation}
+![Inflammation](./src/L1a_40x_01.jpg){#Inflammation}
 
-![Phlegmonous Inflammation](./src/I7_40x_01.JPG){#PhlegmonousInflammation}
+![Phlegmonous Inflammation](./src/I7_40x_01.jpg){#PhlegmonousInflammation}
 
-![Atrophy](./src/M1a_40x_01.JPG){#Atrophy}
+![Atrophy](./src/M1a_40x_01.jpg){#Atrophy}
 
-![Fatty Degeneration](./src/M4a_10x_01.JPG){#FattyDegeneration}
+![Fatty Degeneration](./src/M4a_10x_01.jpg){#FattyDegeneration}
 
-![Caseous Necrosis](./src/M6_40x_01.JPG){#CaseousNecrosis}
+![Caseous Necrosis](./src/M6_40x_01.jpg){#CaseousNecrosis}
 
-![Langerhans Cell](./src/P1_40x_01.JPG){#LangerhansCell}
+![Langerhans Cell](./src/P1_40x_01.jpg){#LangerhansCell}
 
-![Tuberculosis](./src/P1_40x_02.JPG){#Tuberculosis}
+![Tuberculosis](./src/P1_40x_02.jpg){#Tuberculosis}
 
-![Granulation Tissue](./src/R1b_40x_01.JPG){#GranulationTissue}
+![Granulation Tissue](./src/R1b_40x_01.jpg){#GranulationTissue}
 
-![Metaplasia](./src/R2_40x_01.JPG){#Metaplasia}
+![Metaplasia](./src/R2_40x_01.jpg){#Metaplasia}
 
 ![Papilloma](./src/T1_10x_01.jpg){#Papilloma}
 
@@ -2070,7 +2079,7 @@
 
 ![Subacute Severe Hepatisis](./src/D6_4x_01.jpg){#SubacuteSevereHepatitis}
 
-![Bridging Necrosis](./src/D7_10x_01.JPG){#BridgingNecrosis}
+![Bridging Necrosis](./src/D7_10x_01.jpg){#BridgingNecrosis}
 
 ![Hepatocirrhosis](./src/D8b_4x_01.jpg){#Hepatocirrhosis}
 
@@ -2081,3 +2090,11 @@
 ![Cylindruria](./src/U4_10x_01.jpg){#Cylindruria}
 
 ![Hydatid Mole](./src/G2a_10x_01.jpg){#HydatidMole}
+
+![Aschoff Body](./src/H1a_40x_01.jpg){#AschoffBody}
+
+![Atheromatous Plaque](./src/H5_4x_01.jpg){#AtheromatousPlaque}
+
+![Tiger Heart](./src/H10_40x_01.jpg){#TigerHeart}
+
+![Typhoid](./src/P5_40x_01.jpg){#Typhoid}
