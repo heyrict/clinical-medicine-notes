@@ -2021,7 +2021,7 @@
 
 ![DIC](./src/C6a_40x_01.jpg){#DIC}
 
-![Arnemic Infarct of kidney](./src/C8a_40x_02.C8a_40x_02.jpg){#ArnemicInfarctKidney}
+![Arnemic Infarct of kidney](./src/C8a_40x_02.jpg){#ArnemicInfarctKidney}
 
 ![Coagulation Necrosis](./src/C8a_40x_01.jpg){#CoagulationNecrosis}
 
@@ -2081,7 +2081,7 @@
 
 ![Hepatocirrhosis](./src/D8b_4x_01.jpg){#Hepatocirrhosis}
 
-![Atrophic Gastritis](./src/D2_4x_01.jpg){#AtrophicGastritis}
+![Atrophic Gastritis](./src/D2_10x_01.jpg){#AtrophicGastritis}
 
 ![Crecent Moon](./src/U2_40x_01.jpg){#CrecentMoon}
 
