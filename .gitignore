@@ -2,3 +2,6 @@
 *.png
 *.pdf
 *.html
+
+# vim swap files
+.*.swp
