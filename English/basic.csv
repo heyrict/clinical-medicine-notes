@@ -1,0 +1,68 @@
+created,tag,front,back
+2018-09-04T09:30:00+0800,basic,-itis,inflammation
+2018-09-04T09:30:00+0800,basic,hepato-,the liver
+2018-09-04T09:30:00+0800,basic,cardio-,the heart
+2018-09-04T09:30:00+0800,basic,spleno-,the spleen
+2018-09-04T09:30:00+0800,basic,"pneumo-,pulmono-",the lung
+2018-09-04T09:30:00+0800,basic,"reno-,reni-,nephro-",the kidney
+2018-09-04T09:30:00+0800,basic,hystero-,"violent mental agitation, craze[^1]. uterus[^2]."
+2018-09-04T09:30:00+0800,basic,salpingo-,"the tube(esp. fallopian tube, auditory tube)"
+2018-09-04T09:30:00+0800,basic,oophoro-,the ovaries
+2018-09-04T09:30:00+0800,basic,encephalo-,the brain
+2018-09-04T09:30:00+0800,basic,psedo-,fake
+2018-09-04T09:30:00+0800,extended,-ectomy,surgical removal
+2018-09-11T09:30:00+0800,basic,stomato-,mouth
+2018-09-11T09:30:00+0800,basic,dento-,teeth
+2018-09-11T09:30:00+0800,basic,"glosso-,linguo-",tongue
+2018-09-11T09:30:00+0800,basic,gingivo-,gums
+2018-09-11T09:30:00+0800,basic,gastro-,stomach
+2018-09-11T09:30:00+0800,basic,entero-,intestine
+2018-09-11T09:30:00+0800,basic,colo-,colon
+2018-09-11T09:30:00+0800,basic,procto-,"anus, rectum"
+2018-09-11T09:30:00+0800,extended,algo-,ache
+2018-09-11T09:30:00+0800,extended,-graphy,graph examination
+2018-09-18T09:30:00+0800,basic,"dermo-, dermato-, cuti-",skin
+2018-09-18T09:30:00+0800,basic,"masto-,mammo-",breast
+2018-09-18T09:30:00+0800,basic,cysto-,bladder
+2018-09-18T09:30:00+0800,basic,"naso-, rhino-",nose
+2018-09-18T09:30:00+0800,basic,"phlebo-,veno-",veins
+2018-09-18T09:30:00+0800,basic,"hemo-,-emia",blood
+2018-09-18T09:30:00+0800,basic,orchido-,testis
+2018-09-18T09:30:00+0800,extended,-plasty,surgical reshaping
+2018-09-18T09:30:00+0800,extended,-ostomy,surgical opening
+2018-09-18T09:30:00+0800,extended,-otomy,surgical cutting
+2018-09-23T09:30:00+0800,extended,arthro-,joint
+2018-09-23T09:30:00+0800,basic,uro-,urine
+2018-09-23T09:30:00+0800,basic,"nato-, parti-",pregnant
+2018-09-23T09:30:00+0800,basic,"gesto-, pepsi-",digest
+2018-09-23T09:30:00+0800,basic,"a-,an-",not
+2018-09-23T09:30:00+0800,basic,de-,"reverse, remove from"
+2018-09-23T09:30:00+0800,basic,ab-,away from
+2018-09-23T09:30:00+0800,basic,ante-,"before, forward"
+2018-09-23T09:30:00+0800,basic,post-,"after, behind"
+2018-09-23T09:30:00+0800,basic,"supra-, hyper-, epi-","above, beyond"
+2018-09-23T09:30:00+0800,basic,"infra-, hypo-, sub-","below, beneath"
+2018-09-23T09:30:00+0800,basic,"intra-, endo-",within
+2018-09-23T09:30:00+0800,basic,"extra-, exo-",outside
+2018-09-23T09:30:00+0800,basic,inter-,between
+2018-09-23T09:30:00+0800,basic,"-col, -ill, -ull, -ol, -ul",minor
+2018-09-23T09:30:00+0800,basic,cranio-,skull
+2018-09-23T09:30:00+0800,basic,-oid,resemble
+2018-09-23T09:30:00+0800,basic,"musculo-, myo-",muscle
+2018-09-23T09:30:00+0800,basic,"circum-, peri-",around
+2018-09-23T09:30:00+0800,basic,"vaso-, angio-",blood vessle
+2018-09-23T09:30:00+0800,basic,ana-,"up, backward, again, apart"
+2018-09-23T09:30:00+0800,basic,cata-,"down, under"
+2018-09-23T09:30:00+0800,basic,"anti-, contra-","against, opposite"
+2018-09-23T09:30:00+0800,basic,dys-,"abnormal, difficult, bad, impaired"
+2018-09-23T09:30:00+0800,basic,eu-,"normal, good"
+2018-09-23T09:30:00+0800,basic,para-,"alongside, near, beyond, abnormal"
+2018-09-23T09:30:00+0800,basic,dia-,"through, throughout"
+2018-09-23T09:30:00+0800,basic,"bi-, di-, diplo-",two
+2018-09-23T09:30:00+0800,basic,"mono-, uni-",one
+2018-09-23T09:30:00+0800,basic,"tri-",three
+2018-09-23T09:30:00+0800,basic,"quadri-",four
+2018-09-23T09:30:00+0800,basic,"hemi-, semi-, serni-",half
+2018-09-23T09:30:00+0800,basic,meta-,change
+2018-09-23T09:30:00+0800,basic,trans-,across
+2018-09-23T09:30:00+0800,basic,ultra-,"beyond, excess"
