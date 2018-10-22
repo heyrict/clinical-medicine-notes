@@ -61,8 +61,18 @@ created,tag,front,back
 2018-09-23T09:30:00+0800,basic,"bi-, di-, diplo-",two
 2018-09-23T09:30:00+0800,basic,"mono-, uni-",one
 2018-09-23T09:30:00+0800,basic,"tri-",three
-2018-09-23T09:30:00+0800,basic,"quadri-",four
+2018-09-23T09:30:00+0800,basic,"quadri-, tetra-",four
 2018-09-23T09:30:00+0800,basic,"hemi-, semi-, serni-",half
 2018-09-23T09:30:00+0800,basic,meta-,change
 2018-09-23T09:30:00+0800,basic,trans-,across
 2018-09-23T09:30:00+0800,basic,ultra-,"beyond, excess"
+2018-10-09T09:30:00+0800,basic,cyano-,blue
+2018-10-09T09:30:00+0800,basic,erythro-,red
+2018-10-09T09:30:00+0800,basic,leuko-,white
+2018-10-09T09:30:00+0800,basic,melano-,"black, dark"
+2018-10-09T09:30:00+0800,basic,xantho-,yellow
+2018-10-09T09:30:00+0800,basic,oligo-,"few, scanty"
+2018-10-09T09:30:00+0800,basic,pan-,all
+2018-10-16T09:30:00+0800,basic,edino-,gland
+2018-10-16T09:30:00+0800,basic,rheumato-,rheumatism
+2018-10-16T09:30:00+0800,basic,adenoid,lymphotic issue
