@@ -4,6 +4,7 @@ ALLFILES = $(shell ls *.md)
 PDFCMD = pandoc --filter pandoc-tablenos -s --filter pandoc-imagine --latex-engine=xelatex -M CJKmainfont:文泉驿微米黑 --toc
 HTMLCMD = pandoc  -c ../Templates/solarized-light.min.css --template ../Templates/mermaid_template.html5 --filter pandoc-mermaid --mathjax --toc
 HTMLDARKCMD = pandoc  -c ../Templates/solarized-dark.min.css --template ../Templates/mermaid_template.html5 --filter pandoc-mermaid --mathjax --toc
+TABLEFILE = "table.html"
 
 html: $(MAINFILE)
 	$(HTMLCMD) $(MAINFILE) -o $(MAINFILE).html;
@@ -27,4 +28,4 @@ pdfall:
 	for f in $(ALLFILES); do $(PDFCMD) "$$f" -o "$$f.pdf"; done
 
 clean:
-	rimraf *.md.pdf *.md.html pd-images/;
+	-rimraf *.md.pdf *.md.html pd-images/ $(TABLEFILE);

@@ -156,7 +156,7 @@ function detailizeItem(item) {
 function getHtml(detailList) {
   let table = '<table>';
   /* header */
-  table += '<th><td>分类</td>';
+  table += '<th><td>章节</td>';
   acceptedNames.forEach(function(name) {
     table += `<td>${name}</td>`;
   });
@@ -173,6 +173,27 @@ function getHtml(detailList) {
 
   table += '</table>';
   return htmlPrepend + table + htmlPostpend;
+}
+
+function getCsv(detailList) {
+  let table = '';
+  /* header */
+  table += ',章节';
+  acceptedNames.forEach(function(name) {
+    table += `,"${name}"`;
+  });
+  table += '\n';
+
+  /* content */
+  detailList.forEach(function(detail) {
+    table += `"${detail.name}","${detail.genre}"`;
+    acceptedNames.forEach(function(name) {
+      table += `,"${detail[name] || ''}"`;
+    });
+    table += '\n';
+  });
+
+  return table;
 }
 
 tokens.forEach(function(token) {
@@ -256,3 +277,4 @@ outputHtml = outputDetail.map(function(det) {
 });
 
 fs.writeFileSync('table.html', getHtml(outputHtml));
+fs.writeFileSync('table.csv', getCsv(outputHtml));

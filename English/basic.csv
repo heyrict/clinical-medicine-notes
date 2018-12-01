@@ -76,3 +76,56 @@ created,tag,front,back
 2018-10-16T09:30:00+0800,basic,edino-,gland
 2018-10-16T09:30:00+0800,basic,rheumato-,rheumatism
 2018-10-16T09:30:00+0800,basic,adenoid,lymphotic issue
+2018-10-23T09:30:00+0800,basic,"algo-, algio-, algesio-",pain
+2018-10-23T09:30:00+0800,basic,carcino-,carcinoma related
+2018-10-23T09:30:00+0800,basic,lith,"calculus, stone"
+2018-10-23T09:30:00+0800,basic,onco-,tumor
+2018-10-23T09:30:00+0800,basic,pyo-,"pus, fluid product of inflammation"
+2018-10-23T09:30:00+0800,basic,"pyro-, pyreto-",fever
+2018-10-23T09:30:00+0800,basic,sclero-,hard
+2018-10-30T09:30:00+0800,basic,"-algia, -algesia",pain
+2018-10-30T09:30:00+0800,basic,-cele,"hernia, localized dilation"
+2018-10-30T09:30:00+0800,basic,"-clasis, -clasia",breaking
+2018-10-30T09:30:00+0800,basic,-odynia,pain
+2018-10-30T09:30:00+0800,basic,-pathy,any disease of
+2018-10-30T09:30:00+0800,basic,"-rhage, -rhagia","bursting forth, profuse flow, hermorrhage"
+2018-10-30T09:30:00+0800,basic,-rhea,"flow, discharge"
+2018-10-30T09:30:00+0800,basic,-rhexis,rupture
+2018-10-30T09:30:00+0800,basic,-schisis,"fissure, splitting"
+2018-11-06T09:30:00+0800,basic,dilation,"expansion, widening"
+2018-11-06T09:30:00+0800,basic,"ectasis, ectasia",dilation
+2018-11-06T09:30:00+0800,basic,edema,swelling
+2018-11-06T09:30:00+0800,basic,malacia,softening
+2018-11-06T09:30:00+0800,basic,-ptosis,"dropping, displacement"
+2018-11-06T09:30:00+0800,basic,sclerosis,hardening
+2018-11-06T09:30:00+0800,basic,spasm,cramp
+2018-11-06T09:30:00+0800,basic,stasis,suppression
+2018-11-13T09:30:00+0800,basic,esophago-,esophagus
+2018-11-13T09:30:00+0800,basic,pharyngo-,pharynx
+2018-11-13T09:30:00+0800,basic,laryngo-,larynx
+2018-11-13T09:30:00+0800,basic,sialo-,saliva
+2018-11-13T09:30:00+0800,basic,jejuno-,jejunum
+2018-11-13T09:30:00+0800,basic,ileo-,ileum
+2018-11-13T09:30:00+0800,basic,"bili-, chole-","gall, bile"
+2018-11-13T09:30:00+0800,basic,ceco-,cecum
+2018-11-13T09:30:00+0800,basic,peritoneo-,peritoneum
+2018-11-13T09:30:00+0800,basic,ano-,anus
+2018-11-13T09:30:00+0800,basic,sigmoido-,sigmoid colon
+2018-11-13T09:30:00+0800,basic,laparo-,abdominal wall
+2018-11-13T09:30:00+0800,basic,aliment,nutrient
+2018-11-13T09:30:00+0800,basic,pepsi-,digestion
+2018-11-13T09:30:00+0800,basic,-rrhexis,rupture
+2018-11-13T09:30:00+0800,basic,-cele,"hernia, protrustion"
+2018-11-13T09:30:00+0800,basic,litho-,stone
+2018-11-13T09:30:00+0800,basic,gnatho-,jaw
+2018-11-13T09:30:00+0800,basic,palato-,palate
+2018-11-13T09:30:00+0800,basic,uvulo-,uvula
+2018-11-20T09:30:00+0800,basic,pyloro-,pylorus
+2018-11-20T09:30:00+0800,basic,-pexy,surgical fixation
+2018-11-20T09:30:00+0800,basic,-centisis,surgical puncture
+2018-11-27T09:30:00+0800,extended,cholangio-,bile duct
+2018-11-27T09:30:00+0800,extended,cholecysto-,gall bladder
+2018-11-27T09:30:00+0800,extended,choledocho-,main bile duct
+2018-11-27T09:30:00+0800,basic,stenosis,narrowing
+2018-11-27T09:30:00+0800,basic,atel-,incomplete
+2018-11-27T09:30:00+0800,basic,atelectasis,incomplete expansion of lung
