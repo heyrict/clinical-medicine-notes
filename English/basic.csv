@@ -1,131 +1,145 @@
 created,tag,front,back
-2018-09-04T09:30:00+0800,basic,-itis,inflammation
-2018-09-04T09:30:00+0800,basic,hepato-,the liver
-2018-09-04T09:30:00+0800,basic,cardio-,the heart
-2018-09-04T09:30:00+0800,basic,spleno-,the spleen
-2018-09-04T09:30:00+0800,basic,"pneumo-,pulmono-",the lung
-2018-09-04T09:30:00+0800,basic,"reno-,reni-,nephro-",the kidney
-2018-09-04T09:30:00+0800,basic,hystero-,"violent mental agitation, craze[^1]. uterus[^2]."
-2018-09-04T09:30:00+0800,basic,salpingo-,"the tube(esp. fallopian tube, auditory tube)"
-2018-09-04T09:30:00+0800,basic,oophoro-,the ovaries
-2018-09-04T09:30:00+0800,basic,encephalo-,the brain
-2018-09-04T09:30:00+0800,basic,psedo-,fake
-2018-09-04T09:30:00+0800,extended,-ectomy,surgical removal
-2018-09-11T09:30:00+0800,basic,stomato-,mouth
-2018-09-11T09:30:00+0800,basic,dento-,teeth
-2018-09-11T09:30:00+0800,basic,"glosso-,linguo-",tongue
-2018-09-11T09:30:00+0800,basic,gingivo-,gums
-2018-09-11T09:30:00+0800,basic,gastro-,stomach
-2018-09-11T09:30:00+0800,basic,entero-,intestine
-2018-09-11T09:30:00+0800,basic,colo-,colon
-2018-09-11T09:30:00+0800,basic,procto-,"anus, rectum"
-2018-09-11T09:30:00+0800,extended,algo-,ache
-2018-09-11T09:30:00+0800,extended,-graphy,graph examination
-2018-09-18T09:30:00+0800,basic,"dermo-, dermato-, cuti-",skin
-2018-09-18T09:30:00+0800,basic,"masto-,mammo-",breast
-2018-09-18T09:30:00+0800,basic,cysto-,bladder
-2018-09-18T09:30:00+0800,basic,"naso-, rhino-",nose
-2018-09-18T09:30:00+0800,basic,"phlebo-,veno-",veins
-2018-09-18T09:30:00+0800,basic,"hemo-,-emia",blood
-2018-09-18T09:30:00+0800,basic,orchido-,testis
-2018-09-18T09:30:00+0800,extended,-plasty,surgical reshaping
-2018-09-18T09:30:00+0800,extended,-ostomy,surgical opening
-2018-09-18T09:30:00+0800,extended,-otomy,surgical cutting
-2018-09-23T09:30:00+0800,extended,arthro-,joint
-2018-09-23T09:30:00+0800,basic,uro-,urine
-2018-09-23T09:30:00+0800,basic,"nato-, parti-",pregnant
-2018-09-23T09:30:00+0800,basic,"gesto-, pepsi-",digest
-2018-09-23T09:30:00+0800,basic,"a-,an-",not
-2018-09-23T09:30:00+0800,basic,de-,"reverse, remove from"
-2018-09-23T09:30:00+0800,basic,ab-,away from
-2018-09-23T09:30:00+0800,basic,ante-,"before, forward"
-2018-09-23T09:30:00+0800,basic,post-,"after, behind"
-2018-09-23T09:30:00+0800,basic,"supra-, hyper-, epi-","above, beyond"
-2018-09-23T09:30:00+0800,basic,"infra-, hypo-, sub-","below, beneath"
-2018-09-23T09:30:00+0800,basic,"intra-, endo-",within
-2018-09-23T09:30:00+0800,basic,"extra-, exo-",outside
-2018-09-23T09:30:00+0800,basic,inter-,between
-2018-09-23T09:30:00+0800,basic,"-col, -ill, -ull, -ol, -ul",minor
-2018-09-23T09:30:00+0800,basic,cranio-,skull
-2018-09-23T09:30:00+0800,basic,-oid,resemble
-2018-09-23T09:30:00+0800,basic,"musculo-, myo-",muscle
-2018-09-23T09:30:00+0800,basic,"circum-, peri-",around
-2018-09-23T09:30:00+0800,basic,"vaso-, angio-",blood vessle
-2018-09-23T09:30:00+0800,basic,ana-,"up, backward, again, apart"
-2018-09-23T09:30:00+0800,basic,cata-,"down, under"
-2018-09-23T09:30:00+0800,basic,"anti-, contra-","against, opposite"
-2018-09-23T09:30:00+0800,basic,dys-,"abnormal, difficult, bad, impaired"
-2018-09-23T09:30:00+0800,basic,eu-,"normal, good"
-2018-09-23T09:30:00+0800,basic,para-,"alongside, near, beyond, abnormal"
-2018-09-23T09:30:00+0800,basic,dia-,"through, throughout"
-2018-09-23T09:30:00+0800,basic,"bi-, di-, diplo-",two
-2018-09-23T09:30:00+0800,basic,"mono-, uni-",one
-2018-09-23T09:30:00+0800,basic,"tri-",three
-2018-09-23T09:30:00+0800,basic,"quadri-, tetra-",four
-2018-09-23T09:30:00+0800,basic,"hemi-, semi-, serni-",half
-2018-09-23T09:30:00+0800,basic,meta-,change
-2018-09-23T09:30:00+0800,basic,trans-,across
-2018-09-23T09:30:00+0800,basic,ultra-,"beyond, excess"
-2018-10-09T09:30:00+0800,basic,cyano-,blue
-2018-10-09T09:30:00+0800,basic,erythro-,red
-2018-10-09T09:30:00+0800,basic,leuko-,white
-2018-10-09T09:30:00+0800,basic,melano-,"black, dark"
-2018-10-09T09:30:00+0800,basic,xantho-,yellow
-2018-10-09T09:30:00+0800,basic,oligo-,"few, scanty"
-2018-10-09T09:30:00+0800,basic,pan-,all
-2018-10-16T09:30:00+0800,basic,edino-,gland
-2018-10-16T09:30:00+0800,basic,rheumato-,rheumatism
-2018-10-16T09:30:00+0800,basic,adenoid,lymphotic issue
-2018-10-23T09:30:00+0800,basic,"algo-, algio-, algesio-",pain
-2018-10-23T09:30:00+0800,basic,carcino-,carcinoma related
-2018-10-23T09:30:00+0800,basic,lith,"calculus, stone"
-2018-10-23T09:30:00+0800,basic,onco-,tumor
-2018-10-23T09:30:00+0800,basic,pyo-,"pus, fluid product of inflammation"
-2018-10-23T09:30:00+0800,basic,"pyro-, pyreto-",fever
-2018-10-23T09:30:00+0800,basic,sclero-,hard
-2018-10-30T09:30:00+0800,basic,"-algia, -algesia",pain
-2018-10-30T09:30:00+0800,basic,-cele,"hernia, localized dilation"
-2018-10-30T09:30:00+0800,basic,"-clasis, -clasia",breaking
-2018-10-30T09:30:00+0800,basic,-odynia,pain
-2018-10-30T09:30:00+0800,basic,-pathy,any disease of
-2018-10-30T09:30:00+0800,basic,"-rhage, -rhagia","bursting forth, profuse flow, hermorrhage"
-2018-10-30T09:30:00+0800,basic,-rhea,"flow, discharge"
-2018-10-30T09:30:00+0800,basic,-rhexis,rupture
-2018-10-30T09:30:00+0800,basic,-schisis,"fissure, splitting"
-2018-11-06T09:30:00+0800,basic,dilation,"expansion, widening"
-2018-11-06T09:30:00+0800,basic,"ectasis, ectasia",dilation
-2018-11-06T09:30:00+0800,basic,edema,swelling
-2018-11-06T09:30:00+0800,basic,malacia,softening
-2018-11-06T09:30:00+0800,basic,-ptosis,"dropping, displacement"
-2018-11-06T09:30:00+0800,basic,sclerosis,hardening
-2018-11-06T09:30:00+0800,basic,spasm,cramp
-2018-11-06T09:30:00+0800,basic,stasis,suppression
-2018-11-13T09:30:00+0800,basic,esophago-,esophagus
-2018-11-13T09:30:00+0800,basic,pharyngo-,pharynx
-2018-11-13T09:30:00+0800,basic,laryngo-,larynx
-2018-11-13T09:30:00+0800,basic,sialo-,saliva
-2018-11-13T09:30:00+0800,basic,jejuno-,jejunum
-2018-11-13T09:30:00+0800,basic,ileo-,ileum
-2018-11-13T09:30:00+0800,basic,"bili-, chole-","gall, bile"
-2018-11-13T09:30:00+0800,basic,ceco-,cecum
-2018-11-13T09:30:00+0800,basic,peritoneo-,peritoneum
-2018-11-13T09:30:00+0800,basic,ano-,anus
-2018-11-13T09:30:00+0800,basic,sigmoido-,sigmoid colon
-2018-11-13T09:30:00+0800,basic,laparo-,abdominal wall
-2018-11-13T09:30:00+0800,basic,aliment,nutrient
-2018-11-13T09:30:00+0800,basic,pepsi-,digestion
-2018-11-13T09:30:00+0800,basic,-rrhexis,rupture
-2018-11-13T09:30:00+0800,basic,-cele,"hernia, protrustion"
-2018-11-13T09:30:00+0800,basic,litho-,stone
-2018-11-13T09:30:00+0800,basic,gnatho-,jaw
-2018-11-13T09:30:00+0800,basic,palato-,palate
-2018-11-13T09:30:00+0800,basic,uvulo-,uvula
-2018-11-20T09:30:00+0800,basic,pyloro-,pylorus
-2018-11-20T09:30:00+0800,basic,-pexy,surgical fixation
-2018-11-20T09:30:00+0800,basic,-centisis,surgical puncture
-2018-11-27T09:30:00+0800,extended,cholangio-,bile duct
-2018-11-27T09:30:00+0800,extended,cholecysto-,gall bladder
-2018-11-27T09:30:00+0800,extended,choledocho-,main bile duct
-2018-11-27T09:30:00+0800,basic,stenosis,narrowing
-2018-11-27T09:30:00+0800,basic,atel-,incomplete
-2018-11-27T09:30:00+0800,basic,atelectasis,incomplete expansion of lung
+2018-09-04,basic,-itis,inflammation
+2018-09-04,basic,hepato-,the liver
+2018-09-04,basic,cardio-,the heart
+2018-09-04,basic,spleno-,the spleen
+2018-09-04,basic,"pneumo-,pulmono-",the lung
+2018-09-04,basic,"reno-,reni-,nephro-",the kidney
+2018-09-04,basic,hystero-,"violent mental agitation, craze[^1]. uterus[^2]."
+2018-09-04,basic,salpingo-,"the tube(esp. fallopian tube, auditory tube)"
+2018-09-04,basic,oophoro-,the ovaries
+2018-09-04,basic,encephalo-,the brain
+2018-09-04,basic,psedo-,fake
+2018-09-04,extended,-ectomy,surgical removal
+2018-09-11,basic,stomato-,mouth
+2018-09-11,basic,dento-,teeth
+2018-09-11,basic,"glosso-,linguo-",tongue
+2018-09-11,basic,gingivo-,gums
+2018-09-11,basic,gastro-,stomach
+2018-09-11,basic,entero-,intestine
+2018-09-11,basic,colo-,colon
+2018-09-11,basic,procto-,"anus, rectum"
+2018-09-11,extended,algo-,ache
+2018-09-11,extended,-graphy,graph examination
+2018-09-18,basic,"dermo-, dermato-, cuti-",skin
+2018-09-18,basic,"masto-,mammo-",breast
+2018-09-18,basic,cysto-,bladder
+2018-09-18,basic,"naso-, rhino-",nose
+2018-09-18,basic,"phlebo-,veno-",veins
+2018-09-18,basic,"hemo-,-emia",blood
+2018-09-18,basic,orchido-,testis
+2018-09-18,extended,-plasty,surgical reshaping
+2018-09-18,extended,-ostomy,surgical opening
+2018-09-18,extended,-otomy,surgical cutting
+2018-09-23,extended,arthro-,joint
+2018-09-23,basic,uro-,urine
+2018-09-23,basic,"nato-, parti-",pregnant
+2018-09-23,basic,"gesto-, pepsi-",digest
+2018-09-23,basic,"a-,an-",not
+2018-09-23,basic,de-,"reverse, remove from"
+2018-09-23,basic,ab-,away from
+2018-09-23,basic,ante-,"before, forward"
+2018-09-23,basic,post-,"after, behind"
+2018-09-23,basic,"supra-, hyper-, epi-","above, beyond"
+2018-09-23,basic,"infra-, hypo-, sub-","below, beneath"
+2018-09-23,basic,"intra-, endo-",within
+2018-09-23,basic,"extra-, exo-",outside
+2018-09-23,basic,inter-,between
+2018-09-23,basic,"-col, -ill, -ull, -ol, -ul",minor
+2018-09-23,basic,cranio-,skull
+2018-09-23,basic,-oid,resemble
+2018-09-23,basic,"musculo-, myo-",muscle
+2018-09-23,basic,"circum-, peri-",around
+2018-09-23,basic,"vaso-, angio-",blood vessle
+2018-09-23,basic,ana-,"up, backward, again, apart"
+2018-09-23,basic,cata-,"down, under"
+2018-09-23,basic,"anti-, contra-","against, opposite"
+2018-09-23,basic,dys-,"abnormal, difficult, bad, impaired"
+2018-09-23,basic,eu-,"normal, good"
+2018-09-23,basic,para-,"alongside, near, beyond, abnormal"
+2018-09-23,basic,dia-,"through, throughout"
+2018-09-23,basic,"bi-, di-, diplo-",two
+2018-09-23,basic,"mono-, uni-",one
+2018-09-23,basic,"tri-",three
+2018-09-23,basic,"quadri-, tetra-",four
+2018-09-23,basic,"hemi-, semi-, serni-",half
+2018-09-23,basic,meta-,change
+2018-09-23,basic,trans-,across
+2018-09-23,basic,ultra-,"beyond, excess"
+2018-10-09,basic,cyano-,blue
+2018-10-09,basic,erythro-,red
+2018-10-09,basic,leuko-,white
+2018-10-09,basic,melano-,"black, dark"
+2018-10-09,basic,xantho-,yellow
+2018-10-09,basic,oligo-,"few, scanty"
+2018-10-09,basic,pan-,all
+2018-10-16,basic,edino-,gland
+2018-10-16,basic,rheumato-,rheumatism
+2018-10-16,basic,adenoid,lymphotic issue
+2018-10-23,basic,"algo-, algio-, algesio-",pain
+2018-10-23,basic,carcino-,carcinoma related
+2018-10-23,basic,lith,"calculus, stone"
+2018-10-23,basic,onco-,tumor
+2018-10-23,basic,pyo-,"pus, fluid product of inflammation"
+2018-10-23,basic,"pyro-, pyreto-",fever
+2018-10-23,basic,sclero-,hard
+2018-10-30,basic,"-algia, -algesia",pain
+2018-10-30,basic,-cele,"hernia, localized dilation"
+2018-10-30,basic,"-clasis, -clasia",breaking
+2018-10-30,basic,-odynia,pain
+2018-10-30,basic,-pathy,any disease of
+2018-10-30,basic,"-rhage, -rhagia","bursting forth, profuse flow, hemorrhage"
+2018-10-30,basic,-rhea,"flow, discharge"
+2018-10-30,basic,-rhexis,rupture
+2018-10-30,basic,-schisis,"fissure, splitting"
+2018-11-06,basic,dilation,"expansion, widening"
+2018-11-06,basic,"ectasis, ectasia",dilation
+2018-11-06,basic,edema,swelling
+2018-11-06,basic,malacia,softening
+2018-11-06,basic,-ptosis,"dropping, displacement"
+2018-11-06,basic,sclerosis,hardening
+2018-11-06,basic,spasm,cramp
+2018-11-06,basic,stasis,suppression
+2018-11-13,basic,esophago-,esophagus
+2018-11-13,basic,pharyngo-,pharynx
+2018-11-13,basic,laryngo-,larynx
+2018-11-13,basic,sialo-,saliva
+2018-11-13,basic,jejuno-,jejunum
+2018-11-13,basic,ileo-,ileum
+2018-11-13,basic,"bili-, chole-","gall, bile"
+2018-11-13,basic,ceco-,cecum
+2018-11-13,basic,peritoneo-,peritoneum
+2018-11-13,basic,ano-,anus
+2018-11-13,basic,sigmoido-,sigmoid colon
+2018-11-13,basic,laparo-,abdominal wall
+2018-11-13,basic,aliment,nutrient
+2018-11-13,basic,pepsi-,digestion
+2018-11-13,basic,-rrhexis,rupture
+2018-11-13,basic,-cele,"hernia, protrustion"
+2018-11-13,basic,litho-,stone
+2018-11-13,basic,gnatho-,jaw
+2018-11-13,basic,palato-,palate
+2018-11-13,basic,uvulo-,uvula
+2018-11-20,basic,pyloro-,pylorus
+2018-11-20,basic,-pexy,surgical fixation
+2018-11-20,basic,-centisis,surgical puncture
+2018-11-27,extended,cholangio-,bile duct
+2018-11-27,extended,cholecysto-,gall bladder
+2018-11-27,extended,choledocho-,common bile duct
+2018-11-27,basic,stenosis,narrowing
+2018-11-27,basic,atel-,incomplete
+2018-11-27,basic,atelectasis,incomplete expansion of lung
+2018-12-04,basic,phreno-,diaphragm
+2018-12-04,basic,phrenico-,phrenic nerve
+2018-12-04,basic,pleuro-,pleura
+2018-12-04,basic,"pneo-, spiro-, -pnea",breath
+2018-12-04,basic,"peno-, -penia","decrease, deficiency"
+2018-12-04,basic,"phil-, -philia",love
+2018-12-04,basic,-phobia,hate
+2018-12-04,basic,atrio-,atrium
+2018-12-04,basic,arterio-,artery
+2018-12-04,basic,aorto-,aorta
+2018-12-04,basic,lymphadeno-,lymphotic node
+2018-12-04,basic,lyso-,dissolving
+2018-12-04,basic,plego-,palalysis
+2018-12-11,basic,-poiesis,"formation, production"

@@ -44,3 +44,69 @@ History of Present Illness  The patient complains about 5 days of acute pain in 
 Past Medical History        HPT for 21 years
 Allergy                     None
 ```
+## Respiratory System
+```mermaid
+graph TD
+  subgraph upperRT
+    nose --> pharynx
+    pharynx --> larynx
+  end
+
+  subgraph lowerRT
+    trachea --> bronchi
+    bronchi --> bronchiole
+    bronchiole --> alveoli
+  end
+
+  larynx --> trachea
+
+  subgraph functions
+    t((transport))
+    f((filter))
+
+    nf("coarse hairs; cilia; mucus") --- f
+    pf("mucus; cilia; tonsils") --- f
+    lf("mucus") --- f
+    af("mucus; cilia; macrophage") --- f
+
+    nose --> t
+    nose --> nf
+    nose --> nw("warm(capiliary)")
+    nw --- nm
+    nm("moisten(mucous; membrane)")
+
+    pharynx --> t
+    pharynx --> pf
+
+    larynx --> t
+    larynx --> lf
+    larynx --> lpc("prevent choking")
+    lpc --- lps
+    lps("produce sound")
+
+    trachea --> t
+    trachea --> f
+    bronchi --> t
+    bronchi --> f
+    bronchiole --> t
+    bronchiole --> f
+
+    alveoli --> af
+
+    nf -.- pf
+    pf -.- lf
+    t -.- f
+    f -.- nw
+    nm -.- lpc
+  end
+
+  linkStyle 27 stroke:#ffffff00,stroke-width:0;
+  linkStyle 28 stroke:#ffffff00,stroke-width:0;
+  linkStyle 29 stroke:#ffffff00,stroke-width:0;
+  linkStyle 30 stroke:#ffffff00,stroke-width:0;
+  linkStyle 31 stroke:#ffffff00,stroke-width:0;
+```
+
+## Cardiovascular System
+```mermaid
+```
