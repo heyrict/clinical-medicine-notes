@@ -1,1 +1,1 @@
-../Templates/Makefile
+../Templates/MakefileWithNode

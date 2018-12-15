@@ -1,0 +1,6 @@
+# node-js stuff
+node_modules/
+
+# auto-generated stuff
+table.csv
+table.html

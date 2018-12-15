@@ -2,9 +2,14 @@
 *.png
 *.pdf
 *.html
+*/table.csv
+*/table.html
 
 # vim swap files
 .*.swp
 
 # auto-generated stuff
 mermaid-images/
+
+# node-js stuff
+node_modules/
