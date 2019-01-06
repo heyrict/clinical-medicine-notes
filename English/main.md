@@ -108,5 +108,16 @@ graph TD
 ```
 
 ## Cardiovascular System
+### Cardiac cycle
 ```mermaid
+gantt
+    title Cardiac cycle
+    dateFormat SS
+    section Ventricular
+    Ventricular Diastole:vd, 00, 1s
+    Ventricular Systole:active, vs, after vd, 3s
+    Ventricular Diastole:after vs, 4s
+    section Atrial
+    Atral Systole:active, as, 00, 2s
+    Atral Diastole:after as, 6s
 ```
