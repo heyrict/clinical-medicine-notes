@@ -13,3 +13,6 @@ mermaid-images/
 
 # node-js stuff
 node_modules/
+
+# python nodebook checkpoints
+.ipynb_checkpoints

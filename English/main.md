@@ -121,3 +121,10 @@ gantt
     Atral Systole:active, as, 00, 2s
     Atral Diastole:after as, 6s
 ```
+
+## Abstract Writing
+1. OMRaC structure
+    - Objectives
+    - Methods
+    - Results
+    - Conclusions
