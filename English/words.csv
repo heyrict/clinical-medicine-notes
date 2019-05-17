@@ -20,4 +20,21 @@ created,tag,front
 2019-04-04,disease,osteoporosis
 2019-04-04,subject,gynecology
 2019-04-04,subject,obstetrics
-
+2019-04-11,general,incubation
+2019-04-11,general,prodrome
+2019-04-11,general,endemic
+2019-04-11,general,epidemic
+2019-04-11,general,pandemic
+2019-04-25,general,antagonism
+2019-05-16,hormone,testosterone
+2019-05-16,cells,spermatozoa
+2019-05-16,ducts,epididymis
+2019-05-16,ducts,seminiferous duct
+2019-05-16,surgers,incision
+2019-05-16,surgers,excision
+2019-05-16,surgers,circumcision
+2019-05-16,glands,prostate
+2019-05-16,subject,scrotum
+2019-05-16,subject,uterus
+2019-05-16,subject,vagina
+2019-05-16,subject,vulva
