@@ -60,11 +60,11 @@
     - 大流行
 
 1. 标化死亡比 (SMR): $\frac{\text{研究人群观察发病数}}{\text{标准人口预期发病数}}$
-1. 相对危险度 (RR):  <!-- TODO: Add -->
-1. OR:  <!-- TODO: Add -->
+1. 相对危险度 (RR): ${\frac{\text{Diseased rate in exposed population}}{\text{Diseased rate in unexposed population}}$
+1. OR: ${\frac{\text{Diseased / Healthy in exposed opulation}}{\text{Diseased / Healthy in unexposed opulation}}$
 
-1. 归因危险度 (AR%):  <!-- TODO: Add -->
-1. PAR%:  <!-- TODO: Add -->
+1. 归因危险度 (AR): $EER - CER$
+1. AR%: $\frac{AR}{EER}$
 
 ### 人群分布
 1. 疾病年龄分布分析方法
@@ -147,6 +147,13 @@
 
 1. 随机对照实验：RCT (randomized controlled trial)
 1. 非随机对照实验：类实验 (quasi-experiment)
+
+1. PICOS
+    - 人群
+    - 干预
+    - 对照
+    - 结局
+    - 研究类型
 
 1. 对照
     - 阳性对照（标准对照）：以标准疗法为对照

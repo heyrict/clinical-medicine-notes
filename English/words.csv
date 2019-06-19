@@ -38,3 +38,19 @@ created,tag,front
 2019-05-16,subject,uterus
 2019-05-16,subject,vagina
 2019-05-16,subject,vulva
+2019-05-23,process,dispense
+2019-05-30,drugs,laxative
+2019-05-30,drugs,patch
+2019-05-30,drugs,lotion
+2019-05-30,drugs,aerosol
+2019-05-30,drugs,ointment
+2019-05-30,drugs,analgesic
+2019-05-30,drugs,antipruritic
+2019-05-30,drugs,antiseptic
+2019-05-30,others,nauseous
+2019-05-30,others,contraindications
+2019-05-30,drug actions,addictive
+2019-05-30,drug actions,antagonistic
+2019-05-30,drug actions,synergistic
+2019-05-30,drug actions,tolerance
+2019-05-30,drug actions,addiction

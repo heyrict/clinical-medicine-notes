@@ -23,7 +23,7 @@ const htmlPostpend = `
 </html>
 `;
 
-let prevListHeading = "";
+let prevListHeading = [];
 let prevText = "";
 let output = [];
 let outputDetail = [];
@@ -33,7 +33,7 @@ let listItemLevel = 0;
 
 function flushItem(currentItem) {
   output = output.concat(
-    Object.assign({}, { index: prevListHeading }, currentItem)
+    Object.assign({}, { index: prevListHeading[listItemLevel] }, currentItem)
   );
 }
 
@@ -126,7 +126,7 @@ function getCsv(detailList) {
 
   /* content */
   detailList.forEach(function(detail) {
-    table += `"${detail.index} ${detail.key}","${detail.value}"`;
+    table += `"${detail.index} → ${detail.key}","${detail.value}"`;
     table += "\n";
   });
 
@@ -140,7 +140,7 @@ tokens.forEach(function(token) {
       break;
     case "list_start":
       listLevel += 1;
-      prevListHeading = prevText;
+      prevListHeading[listLevel] = prevText;
       break;
     case "list_item_end":
       listItemLevel -= 1;
