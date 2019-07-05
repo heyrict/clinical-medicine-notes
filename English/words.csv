@@ -7,15 +7,14 @@ created,tag,front
 2019-03-21,hormone,epinephrine
 2019-03-21,hormone,norepinephrine
 2019-03-21,hormone,glucagon
-2019-03-21,hormone,esrtogen
+2019-03-21,hormone,estrogen
 2019-03-21,hormone,progesterone
 2019-03-21,hormone,melatonin
-2019-03-21,hormone,throxin
+2019-03-21,hormone,thyroxin
 2019-03-21,hormone,prostaglandin
 2019-03-21,hormone,prolactin
 2019-03-21,disease,hyperthyroidism
-2019-03-21,hormone,hypothyroidism
-2019-03-21,hormone,hypothyroidism
+2019-03-21,disease,hypothyroidism
 2019-04-04,disease,nephrolithiasis
 2019-04-04,disease,osteoporosis
 2019-04-04,subject,gynecology
@@ -24,10 +23,11 @@ created,tag,front
 2019-04-11,general,prodrome
 2019-04-11,general,endemic
 2019-04-11,general,epidemic
+2019-04-11,general,ecdemic
 2019-04-11,general,pandemic
 2019-04-25,general,antagonism
 2019-05-16,hormone,testosterone
-2019-05-16,cells,spermatozoa
+2019-05-16,cells,spermatozoan
 2019-05-16,ducts,epididymis
 2019-05-16,ducts,seminiferous duct
 2019-05-16,surgers,incision
@@ -48,7 +48,7 @@ created,tag,front
 2019-05-30,drugs,antipruritic
 2019-05-30,drugs,antiseptic
 2019-05-30,others,nauseous
-2019-05-30,others,contraindications
+2019-05-30,others,contraindication
 2019-05-30,drug actions,addictive
 2019-05-30,drug actions,antagonistic
 2019-05-30,drug actions,synergistic

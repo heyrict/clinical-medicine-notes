@@ -61,9 +61,9 @@
 
 1. 标化死亡比 (SMR): $\frac{\text{研究人群观察发病数}}{\text{标准人口预期发病数}}$
 1. 相对危险度 (RR): ${\frac{\text{Diseased rate in exposed population}}{\text{Diseased rate in unexposed population}}$
-1. OR: ${\frac{\text{Diseased / Healthy in exposed opulation}}{\text{Diseased / Healthy in unexposed opulation}}$
+1. OR: ${\frac{\text{Diseased / Healthy in exposed population}}{\text{Diseased / Healthy in unexposed population}}$
 
-1. 归因危险度 (AR): $EER - CER$
+1. 归因危险度 (AR or RD): $EER - CER$
 1. AR%: $\frac{AR}{EER}$
 
 ### 人群分布
@@ -72,7 +72,7 @@
     - 出生队列分析
 
 ### 地区分布
-1. 地区聚集性 (endimic clustering)
+1. 地区聚集性 (endemic clustering)
     - 自然地方性
     - 统计地方性
     - 自然疫源性
@@ -95,9 +95,12 @@
 1. 系统误差（偏倚） <!-- IMPORTANT -->
     - 选择偏倚
         - 研究对象选择性偏倚
-        - 无应答偏倚
+        - 无应答偏倚（失访偏倚）：队列研究最常见
         - 幸存者偏倚
-    - 信息偏倚
+    - 信息偏倚（观察偏倚）
+        - 回忆偏倚：病例对照研究最常见，新发病例可减少此偏倚
+        - 调查偏倚
+        - 报告偏倚
     - 混杂偏倚：控制以提高统计学效益
 
 1. 队列研究 (cohort)
@@ -128,7 +131,7 @@
     - 非匹配
     - 匹配
         - 频数匹配：要求配比因素所占比例两组一致
-        - 个体匹配（例数较小）
+        - 个体匹配（例数较小，1:1-4）
 
 1. 病例对照研究四格表
 
@@ -171,17 +174,17 @@
 
 1. 评价
     - 真实性
-        - 灵敏度 (sensitivity): $\frac{TP}{TP + FN}$
-        - 特异度 (specificity): $\frac{TN}{TN + FP}$
-        - 阳性似然比: $ = \frac{Se}{1 - Sp}$
-        - 阴性似然比: $ = \frac{1 - Se}{Sp}$
+        - 灵敏度 (sensitivity): $P(P | T) = \frac{TP}{TP + FN}$
+        - 特异度 (specificity): $P(N | F) = \frac{TN}{TN + FP}$
+        - 阳性似然比: $\frac{TP(TN + FP)}{FP(TP + FN)} = \frac{Se}{1 - Sp}$
+        - 阴性似然比: $\frac{FN(TP + FN)}{TN(TN + FP)} = \frac{1 - Se}{Sp}$
         - 符合率: $\frac{TP + TN}{TP + TN + FP + FN}$
     - 可靠性
         - 符合率
         - Kappa 值
     - 收益
-        - 阳性预测值: $\frac{TP}{TP + FP}$
-        - 阴性预测值: $\frac{TN}{TN + FN}$
+        - 阳性预测值: $P(T | P) = \frac{TP}{TP + FP}$
+        - 阴性预测值: $P(T | N) = \frac{TN}{TN + FN}$
 
 1. 选择诊断标准
 
