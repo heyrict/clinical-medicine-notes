@@ -177,3 +177,5 @@ Echocardiogram is more accurate than ECG in diagnosis of cardiac enlargement.
 1. Hypercalcemia: Decrease of QT inteval with short ST segment
 
 1. Systemic hypothermia: Distinctive bulging of the J point (Osborn waves)
+
+## Pericardial, Myocardial, and Pulmonary Syndromes
