@@ -42,6 +42,15 @@
     - Pons (protuberance) groove
     - Medulla
 
+# Cerebral Edema
+1. Classifications
+    - cytotoxic: secondary to cell injury
+    - vasogenic: vascular leakage through a disrupted BBB
+    - interstitial: secondary to hydrocephalus
+    - osmotic
+
+
+
 # Neuroophthalmology
 ## Anatomy
 - Optic n.
