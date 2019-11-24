@@ -2318,7 +2318,7 @@ Table: 休克各期微循环变化及代偿
 ## 周围血管疾病
  <!-- TODO: Add all -->
 
- 1. 5 P 征 <!-- TODO: Add --> <!--IMPORTANT-->
+1. 5P 征 <!-- TODO: Add --> <!--IMPORTANT-->
 
 ### 概述
 1. 常见临床表现
