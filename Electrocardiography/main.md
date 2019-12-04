@@ -68,7 +68,7 @@ Echocardiogram is more accurate than ECG in diagnosis of cardiac enlargement.
         - Secondary T wave inversions: inverted right precordial T wave
         - LAA
     - Subdivision
-        - Complete RBBB: QRS segment &gte; 0.12 sec in V1 or V6
+        - Complete RBBB: QRS segment &ge; 0.12 sec in V1 or V6
         - Incomplete RBBB: QRS segment in 0.1 to 0.12 sec in V1 or V6
     - Causes
         - Isolated ECG abnomality (no clinical significance)
@@ -87,7 +87,7 @@ Echocardiogram is more accurate than ECG in diagnosis of cardiac enlargement.
         - Prolonged QRS complex with slight notching at the peak
         - Secondary T wave inversions: inverted left precordial T wave
     - Subdivision
-        - Complete LBBB: QRS segment &gte; 0.12 sec in V1 or V6
+        - Complete LBBB: QRS segment &ge; 0.12 sec in V1 or V6
         - Incomplete LBBB: QRS segment in 0.1 to 0.12 sec in V1 or V6
     - Causes
         - Advanced coronary artery disease

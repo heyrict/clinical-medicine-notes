@@ -1709,7 +1709,7 @@
     - 甲型肝炎
         - HAV IgM：HAV 新近感染确诊指标
         - HAV IgG：中和抗体
-    - [乙型肝炎](../Microbiology/main.html#乙型肝炎病毒_HBV)
+    - [乙型肝炎](../Microbiology/main.html#乙型肝炎病毒)
         - HBsAg：正在感染的标志
         - Anti-HBsAg：中和抗体
         - HBeAg：HBV 复制的标志
