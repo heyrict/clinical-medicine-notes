@@ -178,3 +178,34 @@ Notes: 1 mmHg = 13.6 mmH₂O
         - Methanol
         - Carbon monoxide
     - Other causes
+
+# Altered Consscousness
+1. Coma
+
+1. Vegetative State (VS): caused by loss of thalamic neurons, esp. those in central thalamic intralaminar nueclei.
+
+1. Minimally Conscious State (MCS)
+
+   The only behavioral evidence of responsiveness is consistent and sustained visual tracking or fixation.
+   Other behaviors are similar to VS.
+
+   Diagnosis
+
+   - Simple command following
+   - Gestural or verbal "yes/no" responses
+   - Intelligible verbalization
+   - Purposefule behavior
+
+1. Akinetic Mutism (AM)
+
+   Syndromes include that of MCS and severe reduction in spontaneous behavior or extremely slowed interactive responses.
+
+   Associated with:
+
+   - bilateral damage to the anterior medial regions of the cerebral cortex
+   - bilateral damage to caudate nuclei
+   - bilateral central thalamic lesions
+   - large baseal forebrain injuries
+   - damage to the mesencephalic reticular formation
+
+   Can be caused by Acom aneurysm rupture
