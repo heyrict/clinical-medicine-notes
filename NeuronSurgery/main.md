@@ -1,3 +1,7 @@
+---
+title: Neuronsurgery
+---
+
 # Surgical Anatomy of the brain
 ## Arterial Relationships
 1. Middle cerebral artery (MCA)
@@ -179,7 +183,7 @@ Notes: 1 mmHg = 13.6 mmH₂O
         - Carbon monoxide
     - Other causes
 
-# Altered Consscousness
+# Altered Consciousness
 1. Coma
 
 1. Vegetative State (VS): caused by loss of thalamic neurons, esp. those in central thalamic intralaminar nueclei.

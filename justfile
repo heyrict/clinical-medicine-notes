@@ -1,5 +1,5 @@
 CURDIR := invocation_directory()
-PDFCMD := "pandoc --filter pandoc-tablenos -s --filter pandoc-imagine --pdf-engine=xelatex -M CJKmainfont:文泉驿微米黑 --toc"
+PDFCMD := "pandoc --filter pandoc-tablenos -s --filter pandoc-imagine --pdf-engine=xelatex --metadata-file=" + CURDIR + "/Templates/metadata.yaml --toc"
 HTMLCMD := "pandoc --base-header-level=2 --standalone -c " + CURDIR + "/Templates/solarized-light.min.css --template " + CURDIR + "/Templates/mermaid_template.html5 --filter pandoc-mermaid --mathjax --toc"
 HTMLDARKCMD := "pandoc -c " + CURDIR + "/Templates/solarized-dark.min.css --template " + CURDIR + "/Templates/mermaid_template.html5 --filter pandoc-mermaid --mathjax --toc"
 
