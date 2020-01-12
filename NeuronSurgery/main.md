@@ -213,3 +213,12 @@ Notes: 1 mmHg = 13.6 mmH₂O
    - damage to the mesencephalic reticular formation
 
    Can be caused by Acom aneurysm rupture
+
+1. Prognosis <!-- TODO: yet to be studied -->
+
+   Comatose patients suffering traumatic brain injury have a significantly hihger likelihood of recovery than do comatose patients after cardiac arrest.
+
+   VS patients 3 months after cardiac arrest or loss of blood flow is considered to be in a permanent VS.
+   Posttraumatic VS remaining for 1 year is considered permanent.
+
+   In MCS, significant further recovery may occur in some patients after 1 year.
