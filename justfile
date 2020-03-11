@@ -36,3 +36,6 @@ _htmldark FILE:
 clean:
 	fd -I '(.html|.pdf)$' --exec rimraf;
 	fd -I '^pd-images$' --exec rimraf;
+
+commit:
+	git commit -m "Update: `date -I`"
