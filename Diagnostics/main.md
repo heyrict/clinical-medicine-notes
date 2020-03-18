@@ -1484,6 +1484,12 @@
     - 室扑 (af)：正弦型 QRS 波
     - 室颤 (AF)：宽大畸形 QRS 波，出现极高频率极小波
 
+1. 房室传导阻滞
+    - First Degree: Prolonged P-R interval
+    - Second Degree
+        - Mobitz Type I: Dropped QRS with variable P-R interval
+        - Mobitz Type II: Dropped QRS with consistent P-R inteval
+
 1. 传导阻滞
     - 完全性：QRS &gt; 3 小格
     - 不完全性：QRS &lt; 3 小格
