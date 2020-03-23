@@ -3072,7 +3072,7 @@ Table: 休克各期微循环变化及代偿
             - 弹出 (Barlow) 试验
     - 脱位期
         - 检查
-            - 单足站立 (Trendelenburg) 试验
+            - 单足站立 (Trendelen-burg) 试验
 
 1. 治疗
     - (最佳治疗时间) 出生至 6 月：首选 Pavlik 吊带
