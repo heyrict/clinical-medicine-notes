@@ -1,0 +1,7 @@
+
+clean:
+	rm *.csv || true
+
+# Provided FILENAME (without extension), convert the yaml file into anki-compatible csv file
+faq2csv FILENAME:
+	yq -r ".[] | [.UUID, .Q, .A] | @csv" {{FILENAME}}.yaml > {{FILENAME}}.csv

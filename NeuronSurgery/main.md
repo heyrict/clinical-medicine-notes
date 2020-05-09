@@ -82,7 +82,7 @@ Notes: 1 mmHg = 13.6 mmH₂O
 1. Signs of elevated ICP
     - Vomiting without associated nausea
     - Papilledema: good specificity, observer dependent sensitivity
-    - The Cushing response
+    - The Cushing Reflex
         - Arterial hypertension: Pressure on the brainstem
         - Bradycardia: Pressure on vagus nerve
     - Respiration abnormality

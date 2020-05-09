@@ -2,7 +2,7 @@
 - 名词解释
     - Foster-Kennedy Syndrome: 一侧视神经受压发生原型视神经萎缩，对侧因颅内高压发生视乳头水肿
     - Brown-Sequard Syndrome (脊髓半切综合征): 同侧肢体、本体感觉运动丧失，对侧温痛觉、浅感觉丧失
-    - Cushing Reaction: 颅内压增高时，发生的全身血管加压反应
+    - Cushing Reflex: 颅内压增高时，发生的全身血管加压反应
         - 升高血压
         - 心率减慢
         - 呼吸减慢

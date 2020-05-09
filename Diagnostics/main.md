@@ -1546,7 +1546,7 @@
 1. 房室传导阻滞
     - First Degree: Prolonged P-R interval
     - Second Degree
-        - Mobitz Type I: Dropped QRS with variable P-R interval
+        - Mobitz Type I: Progressively lengthened P-R interval (or shortened P-P interval) followed by dropped QRS
         - Mobitz Type II: Dropped QRS with consistent P-R inteval
 
 1. 传导阻滞

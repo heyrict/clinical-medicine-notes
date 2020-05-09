@@ -1,0 +1,7 @@
+
+clean:
+	rm *.csv || true
+
+# Provided FILENAME (without extension), convert the yaml file into anki-compatible csv file
+standard2csv:
+	yq -r ".[] | [.UUID, .F, .B] | @csv" standard.yaml > standard.csv
