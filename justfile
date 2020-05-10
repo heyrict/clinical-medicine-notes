@@ -1,7 +1,7 @@
 CURDIR := invocation_directory()
 PDFCMD := "pandoc --filter pandoc-tablenos -s --filter pandoc-imagine --pdf-engine=xelatex --metadata-file=" + CURDIR + "/Templates/metadata.yaml --toc"
-HTMLCMD := "pandoc --base-header-level=2 --standalone -c " + CURDIR + "/Templates/solarized-light.min.css --template " + CURDIR + "/Templates/mermaid_template.html5 --filter pandoc-mermaid --mathjax --toc"
-HTMLDARKCMD := "pandoc -c " + CURDIR + "/Templates/solarized-dark.min.css --template " + CURDIR + "/Templates/mermaid_template.html5 --filter pandoc-mermaid --mathjax --toc"
+HTMLCMD := "pandoc --shift-heading-level-by=1 -c " + CURDIR + "/Templates/solarized-light.min.css --filter pandoc-imagine --mathjax --toc --self-contained"
+HTMLDARKCMD := "pandoc -c " + CURDIR + "/Templates/solarized-dark.min.css --filter pandoc-imagine --mathjax --toc --self-contained"
 
 html +FILES:
 	@for f in {{FILES}}; do just _html $f; done;
@@ -34,8 +34,21 @@ _htmldark FILE:
 	{{HTMLDARKCMD}} --metadata pagetitle="$DN/$BN" "{{FILE}}" -o "$DN/$BN.html";
 
 clean:
-	fd -I '(.html|.pdf)$' --exec rimraf;
-	fd -I '^pd-images$' --exec rimraf;
+	echo "Cleaning html, pdf and pd-images"
+	@fd -I '(.html|.pdf)$' --exec rm;
+	@fd -I '^pd-images$' --exec rm -rf {};
+	@for f in `ls`; do\
+		if [ -d "$f" ]; then\
+			if [ -f "$f/justfile" ] && [ -n "$(just -f "$f/justfile" -d "$f" --summary | rg clean)" ]; then\
+				echo ">>> Run just clean in $f";\
+				just -f "$f/justfile" -d "$f" clean;\
+			fi;\
+			if [ -f "$f"/Makefile ]; then\
+				echo ">>> Run make clean in $f";\
+				cd "$f"; make clean; cd ..;\
+			fi;\
+		fi;\
+	done;
 
 commit:
 	git commit -m "Update: `date -I`"

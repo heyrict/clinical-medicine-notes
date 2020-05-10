@@ -654,7 +654,33 @@ title: 耳鼻喉科学
 
 1. 咽部淋巴回流
 
-   ![](./lymph_throat.png)
+    ```plantuml
+    @startuml
+    left to right direction
+
+    frame 内环 {
+        card 腺样体
+        card 腭扁桃体
+        card 舌扁桃体
+    }
+
+    frame 外环 {
+        card 咽后淋巴结
+        card 下颌角淋巴结
+        card 颌下淋巴结
+        card 颏下淋巴结
+    }
+
+    腺样体-->咽后淋巴结
+    腺样体-->下颌角淋巴结
+    舌扁桃体-->颏下淋巴结
+    颏下淋巴结-->颌下淋巴结
+    颌下淋巴结-->下颌角淋巴结
+    舌扁桃体-->下颌角淋巴结
+    腭扁桃体-->下颌角淋巴结
+
+    @enduml
+    ```
 
 ### 急性咽炎
 1. 临床表现：急性起病 <!--IMPORTANT-->
