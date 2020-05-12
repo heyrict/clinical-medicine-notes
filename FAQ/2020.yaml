@@ -1,5 +1,8 @@
 - UUID: ed0ef1b3-fa19-45fe-8c4e-b8f82e907508
   Q: 窦房传导阻滞与房室传导阻滞的区别
+  A: |
+    窦房传导阻滞: 窦房结发出的冲动向房室结传导受阻，通常无症状，心电图可见 QRS 波脱漏，间隔与正常心率不成正比
+    房室传导阻滞: 分 1 - 3 度，分别为 P-R 间期延长，规律性 QRS 脱漏，心房波与心室波无关联
 
 - UUID: af6a9be9-805d-4ef8-bdd2-46b0ea4a9cba
   Q: 如何区分收缩性心力衰竭与舒张性心力衰竭？
@@ -13,6 +16,9 @@
 
 - UUID: d222071f-8c52-4bcb-9bf9-9b89e706e304
   Q: 一些重要药物的中毒表现 (洋地黄、硫酸镁)
+  A: |
+    洋地黄: 窦缓室速、房室传导阻滞，色视障碍
+    硫酸镁: 腱反射消失（检测膝反射）、呼吸暂停（R ≥ 16 bpm）、肾功能不全（≥ 600 ml/24h, ≥ 25 ml/h）
 
 - UUID: 1206f0db-ba4d-441a-8e33-748d2ee33aca
   Q: 传出神经系统各个受体的基本作用
@@ -34,3 +40,15 @@
   A: |
     Austin Flint Murmur: 中重度主动脉瓣关闭不全导致二尖瓣相对性狭窄产生的杂音。
     Graham Steel Murmur: 二尖瓣狭窄、房间隔缺损、肺心病导致肺动脉瓣相对性关闭不全产生的杂音
+
+- UUID: bd6a7c58-de3e-412d-85d8-044d5a73c837
+  Q: 疼痛相关病史询问内容 (SOCRATES)
+  A: |
+    S: Site
+    O: Onset
+    C: Character
+    R: Radiation
+    A: Association
+    T: Time course
+    E: Exacerbating and relieving factors
+    S: Severity

@@ -72,6 +72,41 @@
     - 是否有与患者相同疾病
     - 是否有遗传病（高血压、糖尿病、冠心病）
 
+### History Taking
+1. Preparation
+    - Introduce yourself
+    - Identify your patient
+    - Gain consent to speak with them
+    - Should you wish to take notes as you proceed, ask the patients permission to do so
+
+2. Presenting Complaint (PC): What the patient tells you is wrong
+
+3. History of Presenting Complaint (HPC): Gain as much information as possible
+    - S: (Site)
+    - O: (Onset) Start time; constant or intermittent; gradual or sudden
+    - C: (Character) sharp, burning, tight
+    - R: (Radiation)
+    - A: (Association) sweating, vomitting
+    - T: (Time course) following time pattern; time lasting;
+    - E: (Exacerbating or relieving factors)
+    - S: (Severity) 1 - 10 scale
+
+4. Past Medical History (PMH)
+
+5. Drug History (DH): Taken drugs, allergies
+
+6. Family History (FH): Diabetes or cardiac history
+
+7. Social History (SH): Smoking or alcohol; Driving; Illegal substances; People living with the patient;
+
+8. Review of Systems (ROS)
+
+9. Summary of History, including patient's ideas, concerns and expectations (ICE)
+
+10. Patient questions and feedback **(DO NOT GIVE FALSE INFORMATION)**
+
+11. Thank the patient for their time, and say one of the doctors looking after them will come soon
+
 ## 症状学
 ### 发热
 1. 发热：机体在致热原或其他因素作用下引起体温调节中枢的功能障碍时，体温升高超出正常范围
@@ -1557,7 +1592,7 @@
             - 左前分支：电轴左偏
             - 左后分支：电轴右偏
 
-1. 预激综合征 (WPW 综合征)
+1. 预激综合征 (Wolff-Parkinson-White Syndrome, WPW Syndrome)
     - QRS 增宽 &gt; 3 小格，出现 $\Delta$ 波
 
 1. 逸博：长间隔后出现
