@@ -1313,8 +1313,23 @@ title: 内科学
 
 1. 并发症：体循环栓塞
 
+1. CHADS-VASC Score
+    - Notes
+        - Score 0: No oral anticoagulation preferred
+        - Score 1: Consider oral anticoagulant
+        - Score > 1: Oral anticoagulation preferred
+    - Components
+        - (1 point) Age 65 - 74 y/o
+        - (1 point) Sex female
+        - (1 point) Hypertension
+        - (1 point) DM
+        - (1 point) Congestive heart failure
+        - (1 point) Vascular disease, e.g. PVD, MI
+        - (2 point) Age geq 75 y/o
+        - (2 point) Previous stroke, TIA, embolic events
+
 1. 治疗 <!--IMPORTANT-->
-    - 抗凝治疗：(根据 CHADS2 评分) 华法林、新型口服抗凝药
+    - 抗凝治疗：(根据 CHADS 评分) 华法林、新型口服抗凝药
     - 转复病维持窦性心率
         - 药物转复
             - IA: 奎尼丁、普鲁卡因胺
@@ -1918,14 +1933,14 @@ title: 内科学
         - 干咳、声音嘶哑、吞咽困难
         - 胸腹腔积液
     - 体征
-        - Beck 三联征：低血压、心音低弱、颈静脉怒张 <!--IMPORTANT-->
+        - Beck's Triad：低血压、心音低弱、颈静脉怒张 <!--IMPORTANT-->
         - Ewart's Sign: 左肩胛骨下出现叩浊音，听诊闻及支气管呼吸音
         - 脉压差减小
         - 外周血管征：奇脉
         - 体循环淤血
         - 心脏填塞：Kussmaul 征
 
-1. 辅助检查
+1. 辅助检查: 超声心动图为主
     - X 线：烧瓶心
     - 心电图：全导联 ST 段弓背向下抬高，可伴心电交替
     - 心包穿刺
