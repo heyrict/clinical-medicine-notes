@@ -1,0 +1,15 @@
+clean:
+	fd "\.csv$" -x rm {}
+
+# Provided FILENAME (without extension), convert the yaml file into anki-compatible csv file
+points2csv: yaml2csv
+	#!/usr/bin/env python
+	import markdown
+	import pandas as pd
+	df = pd.read_csv("./points.csv", names=["UUID", "Q", "A", "tags"])
+	df.A = df.A.map(markdown.markdown)
+	df.to_csv("./points.csv", header=False, index=False)
+
+# Convert yaml to csv
+yaml2csv:
+	yq -r ".[] | [.UUID, .Q, .A, .tags] | @csv" points.yaml > points.csv

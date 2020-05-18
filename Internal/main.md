@@ -689,8 +689,8 @@ title: 内科学
 1. 分类
     - 病因
         - 自发性 (spontaneous pneumothorax)
-            - 原发性 (PSP)
-            - 继发性 (SSP)
+            - 原发性：多见高瘦的年轻男性
+            - 继发性
         - 外伤性
         - 医源性
     - 临床类型（自发性气胸分类）
@@ -997,16 +997,42 @@ title: 内科学
         - 心血管系统
         - DVT 症状与体征
 
-1. 辅助检查
-
 1. 诊断
     - 疑诊
         - D-dimer: &lt; 500 μg/L 排除诊断
         - 动脉血气分析: 低氧血症、低碳酸血症、肺泡动脉氧分压差增大
-        - ECG: $S_I Q_{III} T_{III}$
+        - ECG: 窦速、右室过劳表现、S1Q3T3 Pattern (仅见于极少数患者)
         - V/Q 显像(敏感)：肺灌注缺损高度怀疑 PTE
     - 确诊
         - CTPA: 半月形、环形充盈缺损
+
+1. Wells Criteria
+    - Criteria
+        - (3)   Clinical signs and symptoms of DVT
+        - (3)   Alternative diagnosis less likely than PE
+        - (1.5) HR > 100
+        - (1.5) Immobilization for > 3 days or Surgery in previous 4 weeks
+        - (1.5) Previous objectively diagnosed PE or DVT
+        - (1)   Hemoptysis
+        - (1)   Malignancy
+    - Interpretation
+        - 0 - 4: Unlikely. Consider D-dimer
+        - > 4: Likely. Consider CTPA or V/Q scan
+
+1. 一般诊断流程
+
+   ```plantuml
+   @startuml
+   start
+   if (Wells Score) then (= 0)
+     :Use D-dimer to rule out PE;
+   else (>= 1)
+     :First line:  V/Q Scan
+      Second line: CTPA;
+   endif
+   end
+   @enduml
+   ```
 
 1. 鉴别诊断
     - 冠脉供血不足

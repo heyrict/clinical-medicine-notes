@@ -91,13 +91,13 @@
     - E: (Exacerbating or relieving factors)
     - S: (Severity) 1 - 10 scale
 
-4. Past Medical History (PMH)
+4. Past Medical History (PMHx)
 
-5. Drug History (DH): Taken drugs, allergies
+5. Drug History (DHx): Taken drugs, allergies
 
-6. Family History (FH): Diabetes or cardiac history
+6. Family History (FHx): Diabetes or cardiac history
 
-7. Social History (SH): Smoking or alcohol; Driving; Illegal substances; People living with the patient;
+7. Social History (SHx): Smoking or alcohol; Driving; Illegal substances; People living with the patient;
 
 8. Review of Systems (ROS)
 
