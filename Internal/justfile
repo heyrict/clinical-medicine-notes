@@ -1,9 +1,18 @@
+CARD_DIR := "flashcards"
+
 clean:
 	fd '\.csv$' -x rm
 
+convert_all:
+	@for f in `ls {{CARD_DIR}}/*.yaml`; do\
+		_fn=`echo $f | cut -d . -f 1`;\
+		echo "Converting ${_fn}.yaml to ${_fn}.csv";\
+		just convert_csv ${_fn};\
+	done
+
 # Provided FILENAME (without extension), convert the yaml file into anki-compatible csv file
-faq2csv FILENAME:
-	yq -r ".[] | [.UUID, .Q, .A] | @csv" "{{FILENAME}}.yaml" > "{{FILENAME}}.csv"
+convert_csv FILENAME:
+	yq -r ".[] | [.UUID, .Q, .A, .created_time] | @csv" "{{FILENAME}}.yaml" > "{{FILENAME}}.csv"
 	just _markdown_to_html "{{FILENAME}}"
 
 _markdown_to_html FILENAME:
@@ -12,6 +21,6 @@ _markdown_to_html FILENAME:
 	import pandas as pd
 	from functools import partial
 
-	df = pd.read_csv("./{{FILENAME}}.csv", names=["UUID", "Q", "A"])
+	df = pd.read_csv("./{{FILENAME}}.csv", names=["UUID", "Q", "A", "created_time"])
 	df.A = df.A.map(partial(markdown.markdown, extensions=['markdown.extensions.tables']))
 	df.to_csv("./{{FILENAME}}.csv", header=False, index=False)
