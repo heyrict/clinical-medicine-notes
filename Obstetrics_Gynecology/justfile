@@ -1,0 +1,16 @@
+clean:
+	fd '\.csv$' -x rm
+
+convert_cards:
+	yq -r ".[] | [.UUID, .Q, .A, .created_time] | @csv" "cards.yaml" > "cards.csv"
+	just _markdown_to_html "cards"
+
+_markdown_to_html FILENAME:
+	#!/usr/bin/env python
+	import markdown
+	import pandas as pd
+	from functools import partial
+
+	df = pd.read_csv("./{{FILENAME}}.csv", names=["UUID", "Q", "A", "created_time"])
+	df.A = df.A.map(partial(markdown.markdown, extensions=['markdown.extensions.tables']))
+	df.to_csv("./{{FILENAME}}.csv", header=False, index=False)
