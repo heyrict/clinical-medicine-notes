@@ -2341,7 +2341,7 @@ Table: 休克各期微循环变化及代偿
     - 肝功能：Child Pugh 分级
     - 超声
 
-1. Child Pugh 分级 <!--IMPORTANT-->
+1. Child Pugh 分级：肝功能分级 <!--IMPORTANT-->
     - 分级
         - A: 5 - 6
         - B: 7 - 9
