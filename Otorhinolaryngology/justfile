@@ -1,7 +1,6 @@
 clean:
 	fd "\.csv$" -x rm {}
 
-# Provided FILENAME (without extension), convert the yaml file into anki-compatible csv file
 points2csv:
 	yq -r ".[] | [.UUID, .Q, .A, .tags] | @csv" points.yaml > points.csv
 	just _markdown_to_html points
@@ -10,6 +9,8 @@ _markdown_to_html FILENAME:
 	#!/usr/bin/env python
 	import markdown
 	import pandas as pd
-	df = pd.read_csv("./{{FILENAME}}.csv", names=["UUID", "Q", "A"])
-	df.A = df.A.map(markdown.markdown)
+	from functools import partial
+
+	df = pd.read_csv("./{{FILENAME}}.csv", names=["UUID", "Q", "A", "created_time"])
+	df.A = df.A.map(partial(markdown.markdown, extensions=['markdown.extensions.tables']))
 	df.to_csv("./{{FILENAME}}.csv", header=False, index=False)

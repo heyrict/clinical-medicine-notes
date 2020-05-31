@@ -1,7 +1,7 @@
 CARD_DIR := "flashcards"
 
 clean:
-	fd '\.csv$' -x rm
+	fd -I '\.csv$' -x rm
 
 convert_all:
 	@for f in `ls {{CARD_DIR}}/*.yaml`; do\
