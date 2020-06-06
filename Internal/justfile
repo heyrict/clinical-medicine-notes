@@ -22,5 +22,5 @@ _markdown_to_html FILENAME:
 	from functools import partial
 
 	df = pd.read_csv("./{{FILENAME}}.csv", names=["UUID", "Q", "A", "created_time"])
-	df.A = df.A.map(partial(markdown.markdown, extensions=['markdown.extensions.tables']))
+	df.A = df.A.map(partial(markdown.markdown, extensions=['tables', 'fenced_code']))
 	df.to_csv("./{{FILENAME}}.csv", header=False, index=False)
