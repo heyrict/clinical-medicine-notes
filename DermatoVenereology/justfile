@@ -2,6 +2,13 @@ clean:
 	fd "\.csv$" -x rm {}
 
 points2csv:
+	@echo
+	@echo ">>> Urgency count"
+	@yq -cj "group_by(.urgency) | .[] | { (.[0].urgency): length }" points.yaml
+	@echo
+	@echo "<<< Urgency count"
+	@echo
+
 	yq -r ".[] | [.UUID, .Q, .A, .urgency] | @csv" points.yaml > points.csv
 	just _markdown_to_html points
 
