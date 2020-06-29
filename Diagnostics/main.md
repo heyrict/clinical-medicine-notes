@@ -10,6 +10,7 @@
     - 职业
     - 籍贯
     - 住所
+    - 供史者
     - 入院时间
     - 记录时间
 
@@ -24,18 +25,18 @@
         - 部位
     - 病因与诱因
     - 病情发展与演变
-    - 伴随症状
+    - 伴随症状（及阴性症状）
     - 诊治经过
     - 一般情况
         - 食欲
         - 体重
         - 精神状态
 
-1. 既往史
+1. 既往史（与此次疾病无关但仍存在的疾病属于现病史）
     - 既往常见病：高血压、糖尿病、冠心病
     - 预防接种
     - 既往手术、外伤史
-    - 输血史
+    - 输血史：输血成分、有无输血反应
     - 过敏
         - 食物、药物过敏
         - 其他过敏（花粉、环境、动物皮毛过敏等）
@@ -86,7 +87,7 @@
     - O: (Onset) Start time; constant or intermittent; gradual or sudden
     - C: (Character) sharp, burning, tight
     - R: (Radiation)
-    - A: (Association) sweating, vomitting
+    - A: (Association) sweating, vomiting
     - T: (Time course) following time pattern; time lasting;
     - E: (Exacerbating or relieving factors)
     - S: (Severity) 1 - 10 scale
@@ -1450,12 +1451,12 @@
 
 1. 肢体导联连接顺序
 
-   ```
-    R     L
-    红 | 黄
-   ---------
-   (绿)| 黑
-   ```
+    ```
+     R     L
+     红 | 黄
+    ---------
+    (绿)| 黑
+    ```
 
 #### 心肌肥大、缺血、梗死
 1. 心房肥大
@@ -1739,6 +1740,11 @@
     - 血清前白蛋白（血清蛋白电泳）：半衰期短，敏感性高，特异性低
     - 血浆凝血因子（凝血酶原试验）：半衰期短，反应肝脏功能
         - 晚期肝硬化：维生素 K 依赖凝血因子 (II, VII, IX, X) 减少
+    - 血清透明质酸 (HA): 反应肝内皮细胞受损程度，与**肝纤维化**有关
+        - 参考值：30 - 84 μg/L
+        - 肝硬化参考值：可 > 1000 μg/L
+    - 血氨
+        - 参考值：18 - 72 μg/L
 
 1. 蛋白质测定意义
     - TP, ALB, GLB 减少
