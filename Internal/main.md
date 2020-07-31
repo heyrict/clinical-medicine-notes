@@ -350,6 +350,7 @@ title: 内科学
         - 电轴右偏
         - V1 R/S &geq; 1
         - aVR R/S 或 R/Q &geq; 1
+        - 肺型 P 波
     - 超声心动图 <!-- IMPORTANT -->
         - 右心室流出道 &gt; 30 mm
         - 右心室内径 &gt; 20 mm
