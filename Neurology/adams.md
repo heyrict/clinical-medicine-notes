@@ -103,3 +103,13 @@ Risk of Lumbar Puncture (LP)
 
 ## Electroencephalography
 
+1. Alpha waves
+    - wave: 8 to 12 per second 50 mV sinusoidal waves
+    - regions: occipital and parietal
+    - changes: wax and wane spontaneously in amplitude
+    - factors: suppress completely with eye opening or mental activity
+
+1. Beta waves
+    - wave: faster than 12 Hz and of lower amplitude (10 - 20 mV)
+    - regions: frontal
+    - factors: increase in fast frequencies if admitted with benzodazepine or sedating drugs
