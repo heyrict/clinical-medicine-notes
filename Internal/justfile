@@ -3,6 +3,9 @@ CARD_DIR := "flashcards"
 clean:
 	fd -I '\.csv$' -x rm
 
+points2csv:
+	just convert_csv points
+
 convert_all:
 	@for f in `ls {{CARD_DIR}}/*.yaml`; do\
 		_fn=`echo $f | cut -d . -f 1`;\
