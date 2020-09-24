@@ -23,7 +23,22 @@ _markdown_to_html FILENAME:
 	import markdown
 	import pandas as pd
 	from functools import partial
+	import re
+
+	INLINE_MATH_RE = re.compile(r"(?<!\\)\$([^\$]+)\$")
+	BLOCK_MATH_RE = re.compile(r"(?<!\\)\$\$([^\$]+)\$\$")
+	markdownfn = partial(
+		markdown.markdown,
+		extensions=['tables', 'fenced_code'],
+	)
+
+	def mapfn(text):
+		text = markdownfn(text)
+		text = BLOCK_MATH_RE.sub(r"\\[\1\\]", text)
+		text = INLINE_MATH_RE.sub(r"\\(\1\\)", text)
+		return text
 
 	df = pd.read_csv("./{{FILENAME}}.csv", names=["UUID", "Q", "A", "created_time"])
-	df.A = df.A.map(partial(markdown.markdown, extensions=['tables', 'fenced_code']))
+	df.Q = df.Q.map(mapfn)
+	df.A = df.A.map(mapfn)
 	df.to_csv("./{{FILENAME}}.csv", header=False, index=False)
