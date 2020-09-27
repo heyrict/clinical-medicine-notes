@@ -25,6 +25,11 @@
     - 其他: Arg, His
   created_time: 2020-07-31T09:12:32+08:00
 
+- UUID: 6a195382-ac8f-4c77-82ad-2ea3195ff42a
+  Q: 亚氨基酸
+  A: 脯氨酸
+  created_time: 2020-09-27T17:46:02+08:00
+
 - UUID: ec31f92c-854e-4351-a68f-9fd3cacb9b78
   Q: Met 分类
   A: 非极性脂肪族氨基酸
@@ -93,6 +98,7 @@
         - **分子量最小**
         - **三叶草形**
         - 含稀有碱基最多；含反密码子环、DHU环、TψC环
+        - 3' 端有 $-CCA-OH$ 结构
     - rRNA
         - 含量最多
         - 花形
@@ -531,6 +537,11 @@
   A: Vit B6 (磷酸吡哆醛)
   created_time: 2020-08-12T19:16:06+08:00
 
+- UUID: a278e03e-ed6e-4fcf-b95b-3d0cfa7393f7
+  Q: 脱氢酶的辅基
+  A: Vit B3 (尼克酰胺，烟酸的酰胺)
+  created_time: 2020-09-27T17:55:22+08:00
+
 - UUID: 89cfe6fa-89b2-4354-92c9-a9fce09881d0
   Q: 生糖氨基酸、生酮氨基酸
   A: |
@@ -557,6 +568,8 @@
     - 氮原子来源: Asp, NH₃
     - 中间产物: 鸟氨酸、精氨酸、瓜氨酸
     - 耗能: 3 分子 ATP (4 个高能磷酸键)
+
+    ![Kerbs Henseleit's Circulation](biochem-krebs-henseleit.jpg)
   created_time: 2020-08-12T19:52:41+08:00
 
 - UUID: 8cfb3d0b-7fb4-46d9-b586-94c8654f230a
@@ -565,6 +578,8 @@
     - 部位: 肝细胞线粒体
     - 途径: 精氨酸 + 尿素 --> 鸟氨酸 + 氨基甲酰磷酸 --> 瓜氨酸 --> 精氨酸代琥珀酸 --> 精氨酸
     - 关键酶: 氨基甲酰磷酸合成酶I, 精氨酸代琥珀酸合成酶
+
+    ![Kerbs Henseleit's Circulation](biochem-krebs-henseleit.jpg)
   created_time: 2020-08-13T20:15:59+08:00
 
 - UUID: fc7a053f-0b62-4c51-9108-4db033c8db2a
@@ -768,12 +783,12 @@
   created_time: 2020-08-28T16:21:47+08:00
 
 - UUID: 889270ad-e551-45af-8a4d-ea14c2c4707c
-  Q: 真核、原核生物的起始点与终止点
+  Q: 真核、原核生物转录的起始点与终止点
   A: |
-    - 真核生物
+    - 原核生物
         - 起始点: σ 因子
         - 终止点: ρ 因子
-    - 原核生物
+    - 真核生物
         - 起始点: TF II D
         - 终止点: AATAAA, GT 序列
   created_time: 2020-08-28T20:49:13+08:00
