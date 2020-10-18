@@ -37,13 +37,13 @@ clean:
 	echo "Cleaning html, pdf and pd-images"
 	@fd -I '(.html|.pdf)$' --exec rm;
 	@fd -I '^pd-images$' --exec rm -rf {};
-	@for f in `ls`; do\
-		if [ -d "$f" ]; then\
-			if [ -f "$f/justfile" ] && [ -n "$(just -f "$f/justfile" -d "$f" --summary | rg clean)" ]; then\
+	@for f in `ls`; do \
+		if [ -d "$f" ]; then \
+			if [ -f "$f/justfile" ] && [ -n "$(just -f "$f/justfile" -d "$f" --summary | rg clean)" ]; then \
 				echo ">>> Run just clean in $f";\
 				just -f "$f/justfile" -d "$f" clean;\
 			fi;\
-			if [ -f "$f"/Makefile ]; then\
+			if [ -f "$f"/Makefile ]; then \
 				echo ">>> Run make clean in $f";\
 				cd "$f"; make clean; cd ..;\
 			fi;\
