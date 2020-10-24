@@ -51,3 +51,20 @@ title: 风湿免疫病
 1. 泼尼松 (强的松): 5 mg/U, 仅口服片剂
 
 1. 氢化可的松: 20 mg/U, 常用于过敏性紫癜
+
+# 嗜血性淋巴细胞增多症 (HLH)
+1. 诊断: 满足以下两条中任一条
+    - Molecular Diagnosis
+    - Diagnostic criteria (5+ of 8 below)
+        - Splenomegaly
+        - Cytopenia
+            - Hb &lt; 90 g/L
+            - Plt &lt; 100e9/L
+            - N# &lt; 1.0e9/L
+        - Hypertriglyceridemia or hypofibrinogenemia
+            - Fasting TG &geq; 3.0 mmol/L
+            - Fibrinogen &leq; 1.5 g/L
+        - Hemophagocytosis (in bone marrow or spleen or lymph nodes)
+        - Low or absent NK-cell activity
+        - Ferritin &geq; 500 μg/L
+        - Soluble CD-25 &geq; 2400 U/ml
