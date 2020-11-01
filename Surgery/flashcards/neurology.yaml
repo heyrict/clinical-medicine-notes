@@ -111,5 +111,10 @@
 
 - UUID: dd7c85a8-0a4d-4267-8c90-a5742b0ca5bb
   Q: 脑脊液正常压力范围
-  A: '8 - 18 cmH₂O 或 5 - 15 mmHg'
+  A: "8 - 18 cmH₂O 或 5 - 15 mmHg"
   created_time: 2020-10-20T07:21:02+08:00
+
+- UUID: 9130282d-42ba-45d2-aeb8-b5fdd7ec1906
+  Q: 上下肢感觉的神经根分布
+  A: "![](sensory-spinal-root-distribution.png)"
+  created_time: 2020-11-01T09:53:53+08:00
