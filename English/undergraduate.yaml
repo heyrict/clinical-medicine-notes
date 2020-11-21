@@ -34,3 +34,23 @@
   zh_trans: n. 熟人，认识的人
   example:
   source: 2001
+
+- word: bold
+  zh_trans: adj. **大胆的**, 清楚醒目的, 陡峭的
+  example:
+  source: 2002
+
+- word: keep abreast of
+  zh_trans: 了解最新情况，跟上 (某事物的发展)
+  example: Instead, the best strategy is to use the agent as a kind of tip service to keep abreast of jobs in a particular database.
+  source: 2004
+
+- word: doze
+  zh_trans: 小睡 (syn. snooze, nap)
+  example:
+  source: 2004
+
+- word: remold
+  zh_trans: vt. 改变，更新（想法、系统等）
+  example: remold the intelligence services
+  source: 2001
