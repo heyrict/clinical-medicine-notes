@@ -23,6 +23,8 @@ _markdown_to_html:
 
 	INLINE_MATH_RE = re.compile(r"(?<!\\)\$([^\$]+)\$")
 	BLOCK_MATH_RE = re.compile(r"(?<!\\)\$\$([^\$]+)\$\$")
+	START_CLOZE_RE = re.compile(r"<p>{{ '{{' }}c(\d+)::</p>")
+	END_CLOZE_RE = re.compile(r"<p>}}</p>")
 	markdownfn = partial(
 		markdown.markdown,
 		extensions=['tables', 'fenced_code'],
@@ -32,6 +34,8 @@ _markdown_to_html:
 		text = markdownfn(text)
 		text = BLOCK_MATH_RE.sub(r"\\[\1\\]", text)
 		text = INLINE_MATH_RE.sub(r"\\(\1\\)", text)
+		text = START_CLOZE_RE.sub(r"<p>{{ '{{' }}c\1::", text)
+		text = END_CLOZE_RE.sub(r"}}</p>", text)
 		return text
 
 	df = pd.read_csv("./{{OUTPUT}}", names=["UUID", "cloze", "created_time", "tag"])
