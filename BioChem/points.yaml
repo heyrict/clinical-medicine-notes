@@ -715,11 +715,11 @@
 - UUID: feb67e0b-495d-4e5c-a421-6da6ba33b3a9
   Q: 真核生物 DNA 聚合酶
   A: |
-    - DNA pol α: 合成引物，催化 RNA 链合成
-    - DNA pol β: 应急修复
-    - DNA pol γ: 线粒体 DNA 复制
-    - DNA pol δ: 合成**后随链**
-    - DNA pol ε: 合成**前导链**
+    - DNA-pol α: 引物酶活性
+    - DNA-pol β: 应急修复
+    - DNA-pol γ: 催化线粒体 DNA 复制
+    - DNA-pol δ: **延长子链的主要酶**, 有解螺旋酶活性
+    - DNA-pol ε: 修复作用
   created_time: 2020-08-23T19:25:46+08:00
 
 - UUID: cd3bdc1b-920f-48a5-92ad-a4752299b8ce
