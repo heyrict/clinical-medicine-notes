@@ -2,6 +2,15 @@
 title: Notes for Adams and Victors' Neurology
 ---
 
+# Analogy
+
+1. Neuclei
+    - with spinal cord projection
+        - pontine
+        - medullary reticular nuclei
+        - vestibular nuclei
+        - red nuclei
+
 # Neurologic Examination
 ## Physical Examination
 1. Higher Cortical Functions
@@ -103,13 +112,131 @@ Risk of Lumbar Puncture (LP)
 
 ## Electroencephalography
 
-1. Alpha waves
-    - wave: 8 to 12 per second 50 mV sinusoidal waves
-    - regions: occipital and parietal
-    - changes: wax and wane spontaneously in amplitude
-    - factors: suppress completely with eye opening or mental activity
+1. Normal waves
+    - α wave: slightly assymetrical 8- to 12-per-second 50-mV sinusoidal wave
+    - β wave: 10 to 20 mV waves with freq faster than 12 Hz, usually observed with administration of benzodiazepines or other sedating drugs
+    - θ wave: 4- to 7-Hz wave, often observed in temporal regions in persons older than 60 y/o.
+    - δ wave: 1- to 3-Hz wave with ampllitudes from 50 to 350 mV. Dorminant rhythms in infants. Not present in normal adults.
 
-1. Beta waves
-    - wave: faster than 12 Hz and of lower amplitude (10 - 20 mV)
-    - regions: frontal
-    - factors: increase in fast frequencies if admitted with benzodazepine or sedating drugs
+1. Abnormal waves
+    - breech rhythm: fast frontal β activity reflecting sedative drugs or skull defect if focal
+    - spikes or sharp waves: transient high-voltage waveforms, usually seen as epileptiform discharges
+    - electrocerebral silence: absense of EEG activity, which indicates brain death (or technical fault). Also transiently seen after admission of barbiturates.
+    - isoelectric over all parts of the head
+        - profound cerebral hypoxia or ischemia
+        - raised ICP
+
+1. Different conditions causing abnormal recordings
+    - epilepsy
+    - focal brain lesions: usually focal δ waves
+        - bilateral synchronous: large lesions of diencephalon or mibrain
+        - near-normal pattern: pons and medulla lesions
+    - **herpes simplex encephalitis**: (characteristic) periodic high voltage sharp waves and slow-wave complexes of 1- to 3-Hz in the temporal regions
+    - coma related diseases
+        - burst suppression: brief isoelectric periods followed by high-voltage sharp and irregular δ activity, usually progressing to electrocerebral silence.
+        - **hepatic coma**: (characteristic) triphasic waves
+    - severe hypothyroidism: normal wave with decreased amplitude and frequency.
+    - diffuse degenerative diseases
+    - **SSPE**, **Creutzfeldt-Jakob disease (CJD)** or **cerebral lipidoses**: (characteristic) periodic bursts of high amplitude sharp waves
+    - optic nerval diseases: absense of pattern-shift visual evoked responses (PSVERs)
+    - lesions of VIII: prolongation of brainstem auditory evoked potentials (BAEPs, pp.49)
+
+1. potentials available to be detected
+    - pattern-shift visual evoked responses (PSVERs)
+    - endogenous event-related evoked potentials
+    - magnetic stimulation of the motor system
+    - brainstem auditory evoked potentials
+    - somatosensory evoked potentials (SSEP)
+
+Most hysteria, catatonia, or schizophrenia patients as well as those with demyelinating diseases have normal EEG activity.
+
+# Disorder of Motility
+## Motor Paralysis
+
+1. Motor neurons
+    - α: large motor neurons of the anterior horn
+        - forming disynaptic reflex
+        - innervation
+            - medial part: trunk or axial muscles
+            - lateral part: appendicular muscles
+    - β: effect concontraction of both spindle and non-spindle cells
+    - γ: small anterior horn cells
+        - keep intrafusal muscle fibers taut
+        - innervation: small muscles (delicate movements)
+
+1. Lesion Positioning
+    - lower motor neurons: flaccidity and areflexia
+        - pronounced atrophy ( ~ 70% )
+        - flaccidity and hypotonia of affected muscles with loss of tendon reflexes
+        - normal plantar reflex
+        - fasciculations present sometimes
+        - abnormal nerve conduction studies: denervation potentials in EMG
+        - with sensory changes: both ant. and post. roots
+        - without sensory changes: ant. gray matter of spinal cord, ant. roots, or a pure motor branch of peripheral nerve
+    - upper motor neurons
+        - affecting a group of muscles, never individual
+        - atrophy slight and the result of disuse
+        - spasticity with hyperactivity of the tendon reflexes and extensor plantar reflex aka. Babinski sign (release of flexor reflexes)
+        - abolished cutaneous reflexes
+        - fasciculations absent
+        - normal nerve conduction studies
+    - parietal lobe
+        - Romberg's sign
+        - diminishing speed of tapping
+
+1. Points
+    - pure pyramidal tract lesion does not result in spasticity
+
+1. motor pathways
+    - direct: pyramidal tract
+    - indirect: rubrospinal, reticulospinal, vestibulospinal and tectospinal tract
+
+1. hypertonia
+    - velocity dependent: clasp-knife phenomenon
+        - cerebral hemiplegia: clasp-knife relaxation following peak resistance
+    - velocity independent
+        - basal ganglia lesion: rigidity
+
+1. apraxia
+    - ideational: fail to conceive or formulate an action to command
+    - ideomotor: fail to execute an action with either hand
+    - limb-kinetic: fail to fluidly connect or to isolate individual movements of the hand and arm
+
+## Abnormalities of Movement and Posture Caused by Disease of the Basal Ganglia
+
+## Ataxia and Disorders of Cerebellar Function
+
+## Tremor, Myoclonus, Focal Dystonias, and Tics
+
+## Disorders of Stance and Gait
+
+# Neurologic Diseases
+## Disturbance of CSF
+### Physiology of CSF
+
+1. CSF functions
+    - water jacket for protecting its contents from injurious blows
+    - make the brain floating
+    - remove waste products of cerebral metabolism (as is done by lymphatic channels in the body)
+    - preserve stable chemical environment for cells inside
+
+1. Constants (for adults)
+    - average intracranial volume: 1700 mL
+        - brain: 1200-1400 mL
+        - CSF: 70-160 mL
+            - spinal subarachnoid space: 10-25 mL
+        - blood: 150 mL
+    - CSF formation rate: 21-22 mL/h or 500 mL/d
+
+1. CSF circulation
+    - formation site: mainly choroid plexuses (lateral ventricles)
+    - formation inhibitor: ATP inhibitor
+    - forth ventricle
+        - foramina of Magendie
+        - foramina of Luschka
+    - absorption site: arachnoid villi (sup. sagittal sinus)
+
+### Hydrocephalus
+
+### Pseudotumor cerebri
+

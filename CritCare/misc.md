@@ -107,5 +107,8 @@ title: GICU 实习知识点总结
 3. SIMV/PSV 降低呼吸频率至 2 - 4 次/分，患者呼吸平稳，通气及氧合指标正常
 4. 上午撤机，便于观察。最初 1 - 2 天夜间可使用呼吸机，辅助经过至少 2 天，患者自发呼吸良好时完全停止使用
 
+# 疾病
+## 毛细血管渗漏综合征
+
 # Extensive Readings
 1. "Free online resource for Intensive Care Medicine". https://derangedphysiology.com/main/home
