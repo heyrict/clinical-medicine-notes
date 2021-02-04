@@ -283,6 +283,8 @@ Most hysteria, catatonia, or schizophrenia patients as well as those with demyel
     - diagnosis
         - CT: enlarged ventricles disproportionate to convolutional atrophy
     - treatment: drainage of CSF by 20 to 30 mL or more
+        - shunting
+        - carbonic anhydrase inhibitor
 
 ### Hydrocephalus
 
