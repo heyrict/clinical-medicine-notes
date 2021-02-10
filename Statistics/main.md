@@ -79,7 +79,7 @@
     - paired
         - freedom: $n - 1$
 
-### Mann-Whitney-Wilcoxon u test
+### Mann-Whitney u test
 1. Null hypothesis: the distributions of both populations are equal
 
 1. Assumptions
@@ -127,7 +127,7 @@
        however, the distribution of the statistic under $H_{0}$ has to be adjusted.
 
 
-### $\chi^2$ 检验
+### Pearson's $\chi^2$ test
 1. Null hypothesis: rows are independent of cols
 
 1. [Assumptions](https://sites.google.com/statistics/notes/chisqr_assumptions)
@@ -139,7 +139,7 @@
     - 2x2 tables
         - Sample size
             - all individual expected counts &gt; 10
-            - (controversial) applying Yates' Correlation if any expected counts in [5, 10)
+            - (controversial) applying Yates' Correlation if any expected counts in 5 ≤ x &lt; 10
             - use Fisher exact test if any expected counts &lt; 5
         - Independence: each observation is independent of all the others
     - *The latest advice for 2x2 tables*
