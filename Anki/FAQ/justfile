@@ -1,0 +1,39 @@
+clean:
+	fd '\.csv$' -x rm
+
+# Provided FILENAME (without extension), convert the yaml file into anki-compatible csv file
+faq2csv FILENAME:
+	yq -r ".[] | [.UUID, .Q, .A, .cloze, .created_time] | @csv" "{{FILENAME}}.yaml" > "{{FILENAME}}.csv"
+	just _markdown_to_html "{{FILENAME}}"
+	rm "{{FILENAME}}.csv"
+
+_markdown_to_html FILENAME:
+	#!/usr/bin/env python
+	import markdown
+	import pandas as pd
+	from functools import partial
+	import re
+
+	INLINE_MATH_RE = re.compile(r"(?<!\\)\$([^\$]+)\$")
+	BLOCK_MATH_RE = re.compile(r"(?<!\\)\$\$([^\$]+)\$\$")
+	markdownfn = partial(
+		markdown.markdown,
+		extensions=['tables', 'fenced_code'],
+	)
+
+	def mapfn(text):
+		text = markdownfn(text)
+		text = BLOCK_MATH_RE.sub(r"\\[\1\\]", text)
+		text = INLINE_MATH_RE.sub(r"\\(\1\\)", text)
+		return text
+
+	df = pd.read_csv("./{{FILENAME}}.csv", names=["UUID", "Q", "A", "cloze", "created_time"])
+	df_qa = df.dropna(subset=["Q"])
+	df_cloze = df.dropna(subset=["cloze"])
+	df_qa.A = df_qa.A.map(mapfn)
+	df_cloze.cloze = df_cloze.cloze.map(mapfn)
+
+	if df_qa.shape[0] > 0:
+		df_qa[["UUID", "Q", "A", "created_time"]].to_csv("./{{FILENAME}}_qa.csv", header=False, index=False)
+	if df_cloze.shape[0] > 0:
+		df_cloze[["UUID", "cloze", "created_time"]].to_csv("./{{FILENAME}}_cloze.csv", header=False, index=False)
