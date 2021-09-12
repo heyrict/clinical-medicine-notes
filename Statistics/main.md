@@ -32,8 +32,8 @@
             - 成组 t 检验
             - 两组秩和检验
         - 多样本
-            - One-way ANOVA
-            - KWallis Test
+            - One-way ANOVA (normal dist.)
+            - KWallis Test (not normal dist.)
     - 定性资料: $\chi^2 Test$
     - 等级资料
         - 两样本: 两组秩和检验

@@ -810,7 +810,7 @@
 - UUID: 21ac4686-b36f-4224-b17b-f2af1fb3d8a5
   Q: 启动子 (顺式作用元件) 组成部分
   A: |
-    - 核心启动子: (TATA/Hognest 盒) TATAAAA, 启动转录
+    - 核心启动子: (TATA/Hogness 盒) TATAAAA, 启动转录
     - 启动子上游元件: (GC 盒) GGGCGG, (CAAT 盒) GCCAAT, 改变转运效率
     - 增强子、沉默子: 调控
   created_time: 2020-08-28T16:44:54+08:00
