@@ -1,0 +1,27 @@
+base_url = "/"
+
+title = "临床医学笔记"
+description = "该项目为各门临床课程个人整理笔记的汇总，掌握要求为南京医科大学五年制临床专业要求。另附有一些课外阅读材料的笔记。"
+
+default_language = "zh_CN"
+
+minify_html = true
+
+ignored_content = ["*.pdf", "*.html", "*.csv", "*.xlsx", "*.yaml", "*.py", "*.ipynb"]
+
+theme = "solar-theme-zola"
+
+[markdown]
+highlight_theme = "solarized-dark"
+
+
+[search]
+include_path = true
+
+[extra]
+highlight_theme = "solarized-dark"
+
+
+[[extra.site_menus]]
+url = "/"
+name = "Home"
