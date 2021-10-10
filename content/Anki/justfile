@@ -1,5 +1,5 @@
 clean:
-	fd '\.csv$' -x rm
+	fd -I '\.csv$' -x rm
 
 # Provided FILENAME (without extension), convert the yaml file into anki-compatible csv file
 faq2csv FILENAME:
