@@ -10,6 +10,10 @@ convert_all: clean
 	done
 	just _markdown_to_html
 
+recite_2022:
+	yq -r ".[] | [.UUID, .Q, .A, .created_time] | @csv" "2022_recite.yaml" >> "2022_recite.csv"
+	just _markdown_to_html_2022
+
 # Provided FILENAME (without extension), convert the yaml file into anki-compatible csv file
 _convert_csv FILENAME:
 	yq -r ".[] | [.UUID, .cloze, .created_time, \"{{FILENAME}}\"] | @csv" "{{FILENAME}}.yaml" >> "{{OUTPUT}}"
@@ -41,3 +45,12 @@ _markdown_to_html:
 	df = pd.read_csv("./{{OUTPUT}}", names=["UUID", "cloze", "created_time", "tag"])
 	df.cloze = df.cloze.map(mapfn)
 	df.to_csv("./{{OUTPUT}}", header=False, index=False)
+
+_markdown_to_html_2022:
+	#!/usr/bin/env python
+	import markdown
+	import pandas as pd
+
+	df = pd.read_csv("./2022_recite.csv", names=["UUID", "Q", "A", "created_time"])
+	df.A = df.A.map(markdown.markdown)
+	df.to_csv("./2022_recite.csv", header=False, index=False)
