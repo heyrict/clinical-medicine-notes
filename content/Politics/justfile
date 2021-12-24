@@ -11,7 +11,7 @@ convert_all: clean
 	just _markdown_to_html
 
 recite_2022:
-	yq -r ".[] | [.UUID, .Q, .A, .created_time] | @csv" "2022_recite.yaml" >> "2022_recite.csv"
+	yq -r ".[] | [.UUID, .Q, .A, .created_time] | @csv" "2022_recite.yaml" > "2022_recite.csv"
 	just _markdown_to_html_2022
 
 # Provided FILENAME (without extension), convert the yaml file into anki-compatible csv file
