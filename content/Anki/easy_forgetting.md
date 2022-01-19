@@ -1729,9 +1729,9 @@ title: "错题集（易忘知识点）"
     - 革命的首要问题: 分清敌友
     - 革命的根本问题: 国家政权问题
     - **革命的中心问题: 领导权问题**
+    - 中国革命的基本问题: 农民问题
     - 新民主主义革命的核心问题: 领导权问题
     - **无产阶级领导权的中心问题: 农民问题**
-    - 中国革命的基本问题: 农民问题
 
 1. 基本路线的提法
     - **奋斗目标**: 建设富强、民主、文明的社会主义现代化国家
@@ -1825,6 +1825,8 @@ title: "错题集（易忘知识点）"
     - 军民融合的格局: 全要素、宽领域、高效益
     - 开放布局: 全方位、多层次、宽领域
     - 外交布局: 全方位、多层次、立体化
+    - 开放型经济体系: 大范围、宽领域、深层次
+    - 一带一路的目标: 高标准、可持续、惠民生
 
 ### 史纲
 
@@ -2335,6 +2337,9 @@ title: "错题集（易忘知识点）"
 
 ## 写作句式
 
+1. 抬头
+    - 写给机构: To whom it may concern
+
 1. 写信内容
     - 自我介绍/写信目的/背景与自己的态度
     - 信的内容、原因
@@ -2362,7 +2367,7 @@ title: "错题集（易忘知识点）"
     - Please accept my sincere apologies for any inconveniences my leaving may cause
     - I do appreciate your kind consideration you have shown me
 1. 求职信
-    - I am responding to your ad on ...
+    - I am responding to your ad on the newspaper **for the position of**
     - It prompts me to offer you my qualifications because your requirements closely parallel my working experience
     - I wish you would give me an oppotunity to be interviewed. I can be reached at ...
     - Any favorable consideration of my application will be greatly appreciated
@@ -2375,7 +2380,7 @@ title: "错题集（易忘知识点）"
     - With deepest gratitude I write to you here a few lines
 1. 祝贺信
     - It's my great pleasure to congratulate you on ...
-    - I can well imagine how prode of your parents are now
+    - I can well imagine how proud of your parents are now
     - Because of our close association with you over the past 10 years, we know how well you are qualified for this important position
     - We are delighted to see your true ability has finally won recognition
     - May each succeeding year bring you great happiness and prosperity
@@ -2464,7 +2469,7 @@ title: "错题集（易忘知识点）"
 
 1. 代词指明要点: What remains → 剩下的 *东西*
 
-1. 动词分配原则: It is not know that A, or B. → 人们不知道 A, 也不知道 B。
+1. 动词分配原则: It is not known that A, or B. → 人们不知道 A, 也不知道 B。
 
 1. 被认为 → 可以视作: the resemblance is regarded as compelling envidence → 这种类似可视作是极有说服力的证据
 
