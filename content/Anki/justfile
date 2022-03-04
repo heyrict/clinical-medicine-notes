@@ -18,7 +18,7 @@ _markdown_to_html FILENAME:
 	BLOCK_MATH_RE = re.compile(r"(?<!\\)\$\$([^\$]+)\$\$")
 	markdownfn = partial(
 		markdown.markdown,
-		extensions=['tables', 'fenced_code'],
+		extensions=['tables', 'fenced_code', 'nl2br'],
 	)
 
 	def mapfn(text):
