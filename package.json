@@ -4,7 +4,7 @@
   "description": "Generating table from phamacology main file",
   "main": "index.js",
   "dependencies": {
-    "marked": "^0.7.0"
+    "marked": "^4.0.10"
   },
   "devDependencies": {},
   "scripts": {
