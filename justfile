@@ -3,6 +3,19 @@ PDFCMD := "pandoc --filter pandoc-tablenos -s --filter pandoc-imagine --pdf-engi
 HTMLCMD := "pandoc --shift-heading-level-by=1 -c " + CURDIR + "/Templates/solarized-light.min.css --filter pandoc-imagine --mathjax --toc --self-contained"
 HTMLDARKCMD := "pandoc -c " + CURDIR + "/Templates/solarized-dark.min.css --filter pandoc-imagine --mathjax --toc --self-contained"
 
+build_push: build push
+
+build:
+	zola build
+
+push:
+	rsync -rzz public/ vultr:climed_public
+
+pull_assets:
+	-mkdir -p assets/js/
+	curl -L https://github.com/MihaiValentin/lunr-languages/blob/master/lunr.stemmer.support.js > assets/js/lunr.stemmer.support.js
+	curl -L https://github.com/MihaiValentin/lunr-languages/blob/master/lunr.zh.js > assets/js/lunr.zh.js
+
 html +FILES:
 	@for f in {{FILES}}; do just _html $f; done;
 

@@ -2008,88 +2008,89 @@ toc: true
 
 
 # 组织切片
-![Chronic Congestion of Liver](./src/C1_40x_01.jpg){#ChronicCongestionLiver}
 
-![Congestion of Lung](./src/C2_40x_01.jpg){#CongestionLung}
+<img src="./src/C1_40x_01.jpg" alt="Chronic Congestion of Liver" id="ChronicCongestionLiver" />
 
-![Mixed Thrombus](./src/C4b_40x_01.jpg){#MixedThrombus}
+<img src="./src/C2_40x_01.jpg" alt="Congestion of Lung" id="CongestionLung" />
 
-![Organized Thrombus with Recanalization](./src/C5_10x_01.bmp){#Recanalization}
+<img src="./src/C4b_40x_01.jpg" alt="Mixed Thrombus" id="MixedThrombus" />
 
-![DIC](./src/C6a_40x_01.jpg){#DIC}
+<img src="./src/C5_10x_01.bmp" alt="Organized Thrombus with Recanalization" id="Recanalization" />
 
-![Anemic Infarct of kidney](./src/C8a_40x_02.jpg){#AnemicInfarctKidney}
+<img src="./src/C6a_40x_01.jpg" alt="DIC" id="DIC" />
 
-![Coagulation Necrosis](./src/C8a_40x_01.jpg){#CoagulationNecrosis}
+<img src="./src/C8a_40x_02.jpg" alt="Anemic Infarct of kidney" id="AnemicInfarctKidney" />
 
-![Hyperemia Bleeding Band](./src/C8a_40x_03.jpg){#HyperemiaBleedingBand}
+<img src="./src/C8a_40x_01.jpg" alt="Coagulation Necrosis" id="CoagulationNecrosis" />
 
-![Hydropic Degeneration](./src/D7_40x_01.jpg){#HydropicDegeneration}
+<img src="./src/C8a_40x_03.jpg" alt="Hyperemia Bleeding Band" id="HyperemiaBleedingBand" />
 
-![Hyalinosis Degeneration](./src/H9_40x_01.jpg){#HyalinosisDegeneration}
+<img src="./src/D7_40x_01.jpg" alt="Hydropic Degeneration" id="HydropicDegeneration" />
 
-![Cor Villogum](./src/I1a_40x_01.jpg){#CorVillogum}
+<img src="./src/H9_40x_01.jpg" alt="Hyalinosis Degeneration" id="HyalinosisDegeneration" />
 
-![Inflammation](./src/L1a_40x_01.jpg){#Inflammation}
+<img src="./src/I1a_40x_01.jpg" alt="Cor Villogum" id="CorVillogum" />
 
-![Phlegmonous Inflammation](./src/I7_40x_01.jpg){#PhlegmonousInflammation}
+<img src="./src/L1a_40x_01.jpg" alt="Inflammation" id="Inflammation" />
 
-![Atrophy](./src/M1a_40x_01.jpg){#Atrophy}
+<img src="./src/I7_40x_01.jpg" alt="Phlegmonous Inflammation" id="PhlegmonousInflammation" />
 
-![Fatty Degeneration](./src/M4a_10x_01.jpg){#FattyDegeneration}
+<img src="./src/M1a_40x_01.jpg" alt="Atrophy" id="Atrophy" />
 
-![Caseous Necrosis](./src/M6_40x_01.jpg){#CaseousNecrosis}
+<img src="./src/M4a_10x_01.jpg" alt="Fatty Degeneration" id="FattyDegeneration" />
 
-![Langerhans Cell](./src/P1_40x_01.jpg){#LangerhansCell}
+<img src="./src/M6_40x_01.jpg" alt="Caseous Necrosis" id="CaseousNecrosis" />
 
-![Tuberculosis](./src/P1_40x_02.jpg){#Tuberculosis}
+<img src="./src/P1_40x_01.jpg" alt="Langerhans Cell" id="LangerhansCell" />
 
-![Granulation Tissue](./src/R1b_40x_01.jpg){#GranulationTissue}
+<img src="./src/P1_40x_02.jpg" alt="Tuberculosis" id="Tuberculosis" />
 
-![Metaplasia](./src/R2_40x_01.jpg){#Metaplasia}
+<img src="./src/R1b_40x_01.jpg" alt="Granulation Tissue" id="GranulationTissue" />
 
-![Papilloma](./src/T1_10x_01.jpg){#Papilloma}
+<img src="./src/R2_40x_01.jpg" alt="Metaplasia" id="Metaplasia" />
 
-![SquamousCellCarcinoma](./src/T2_40x_01.jpg){#SquamousCellCarcinoma}
+<img src="./src/T1_10x_01.jpg" alt="Papilloma" id="Papilloma" />
 
-![Colon Adenoma](./src/T2c_4x_01.jpg){#ColonAdenoma}
+<img src="./src/T2_40x_01.jpg" alt="SquamousCellCarcinoma" id="SquamousCellCarcinoma" />
 
-![Keratin Pearl](./src/T4a_40x_01.jpg){#KeratinPearl}
+<img src="./src/T2c_4x_01.jpg" alt="Colon Adenoma" id="ColonAdenoma" />
 
-![Cytodesma](./src/T4a_40x_02.jpg){#Cytodesma}
+<img src="./src/T4a_40x_01.jpg" alt="Keratin Pearl" id="KeratinPearl" />
 
-![Carcinoma In Situ](./src/CarcinomaInSitu_40x_01.jpg){#CarcinomaInSitu}
+<img src="./src/T4a_40x_02.jpg" alt="Cytodesma" id="Cytodesma" />
 
-![Mucoid Adenocarcinoma](./src/T10a_40x_01.jpg){#MucoidAdenocarcinoma}
+<img src="./src/CarcinomaInSitu_40x_01.jpg" alt="Carcinoma In Situ" id="CarcinomaInSitu" />
 
-![Leiomyoma](./src/T6a_40x_01.jpg){#Leiomyoma}
+<img src="./src/T10a_40x_01.jpg" alt="Mucoid Adenocarcinoma" id="MucoidAdenocarcinoma" />
 
-![Chronic Bronchitis](./src/L5_10x_01.jpg){#ChronicBronchitis}
+<img src="./src/T6a_40x_01.jpg" alt="Leiomyoma" id="Leiomyoma" />
 
-![Silicosis](./src/L7_10x_01.jpg){#Silicosis}
+<img src="./src/L5_10x_01.jpg" alt="Chronic Bronchitis" id="ChronicBronchitis" />
 
-![Carcinoma of Lung](./src/L8_40x_01.jpg){#CarcinomaLung}
+<img src="./src/L7_10x_01.jpg" alt="Silicosis" id="Silicosis" />
 
-![Acute Severe Hepatitis](./src/D5_10x_01.jpg){#AcuteSevereHepatitis}
+<img src="./src/L8_40x_01.jpg" alt="Carcinoma of Lung" id="CarcinomaLung" />
 
-![Subacute Severe Hepatisis](./src/D6_4x_01.jpg){#SubacuteSevereHepatitis}
+<img src="./src/D5_10x_01.jpg" alt="Acute Severe Hepatitis" id="AcuteSevereHepatitis" />
 
-![Bridging Necrosis](./src/D7_10x_01.jpg){#BridgingNecrosis}
+<img src="./src/D6_4x_01.jpg" alt="Subacute Severe Hepatisis" id="SubacuteSevereHepatitis" />
 
-![Hepatocirrhosis](./src/D8b_4x_01.jpg){#Hepatocirrhosis}
+<img src="./src/D7_10x_01.jpg" alt="Bridging Necrosis" id="BridgingNecrosis" />
 
-![Atrophic Gastritis](./src/D2_10x_01.jpg){#AtrophicGastritis}
+<img src="./src/D8b_4x_01.jpg" alt="Hepatocirrhosis" id="Hepatocirrhosis" />
 
-![Crecent Moon](./src/U2_40x_01.jpg){#CrecentMoon}
+<img src="./src/D2_10x_01.jpg" alt="Atrophic Gastritis" id="AtrophicGastritis" />
 
-![Cylindruria](./src/U4_10x_01.jpg){#Cylindruria}
+<img src="./src/U2_40x_01.jpg" alt="Crecent Moon" id="CrecentMoon" />
 
-![Hydatid Mole](./src/G2a_10x_01.jpg){#HydatidMole}
+<img src="./src/U4_10x_01.jpg" alt="Cylindruria" id="Cylindruria" />
 
-![Aschoff Body](./src/H1a_40x_01.jpg){#AschoffBody}
+<img src="./src/G2a_10x_01.jpg" alt="Hydatid Mole" id="HydatidMole" />
 
-![Atheromatous Plaque](./src/H5_4x_01.jpg){#AtheromatousPlaque}
+<img src="./src/H1a_40x_01.jpg" alt="Aschoff Body" id="AschoffBody" />
 
-![Tiger Heart](./src/H10_40x_01.jpg){#TigerHeart}
+<img src="./src/H5_4x_01.jpg" alt="Atheromatous Plaque" id="AtheromatousPlaque" />
 
-![Typhoid](./src/P5_40x_01.jpg){#Typhoid}
+<img src="./src/H10_40x_01.jpg" alt="Tiger Heart" id="TigerHeart" />
+
+<img src="./src/P5_40x_01.jpg" alt="Typhoid" id="Typhoid" />

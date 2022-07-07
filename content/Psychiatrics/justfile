@@ -1,1 +1,23 @@
-../DermatoVenereology/justfile
+clean:
+	fd "\.csv$" -x rm {}
+
+points2csv:
+	@echo
+	@echo ">>> Urgency count"
+	@yq -cj "group_by(.urgency) | .[] | { (.[0].urgency): length }" points.yaml
+	@echo
+	@echo "<<< Urgency count"
+	@echo
+
+	yq -r ".[] | [.UUID, .Q, .A, .urgency] | @csv" points.yaml > points.csv
+	just _markdown_to_html points
+
+_markdown_to_html FILENAME:
+	#!/usr/bin/env python
+	import markdown
+	import pandas as pd
+	from functools import partial
+
+	df = pd.read_csv("./{{FILENAME}}.csv", names=["UUID", "Q", "A", "urgency"])
+	df.A = df.A.map(partial(markdown.markdown, extensions=['markdown.extensions.tables']))
+	df.to_csv("./{{FILENAME}}.csv", header=False, index=False)

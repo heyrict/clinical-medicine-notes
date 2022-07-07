@@ -5,6 +5,9 @@
 */table.csv
 */table.html
 
+# Fetchable assets
+assets/
+
 # vim swap files
 .*.swp
 
