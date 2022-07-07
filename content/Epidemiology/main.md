@@ -64,8 +64,8 @@ title: 流行病学
     - 大流行
 
 1. 标化死亡比 (SMR): $\frac{\text{研究人群观察发病数}}{\text{标准人口预期发病数}}$
-1. 相对危险度 (RR): ${\frac{\text{Diseased rate in exposed population}}{\text{Diseased rate in unexposed population}}$
-1. OR: ${\frac{\text{Diseased / Healthy in exposed population}}{\text{Diseased / Healthy in unexposed population}}$
+1. 相对危险度 (RR): $\frac{\text{Diseased rate in exposed population}}{\text{Diseased rate in unexposed population}}$
+1. OR: $\frac{\text{Diseased / Healthy in exposed population}}{\text{Diseased / Healthy in unexposed population}}$
 
 1. 归因危险度 (AR or RD): $EER - CER$
 1. AR%: $\frac{AR}{EER}$
@@ -139,15 +139,15 @@ title: 流行病学
 
 1. 病例对照研究四格表
 
-    |   | 病例 | 对照 |
-    |---|------|------|
-    | + | a    | b    |
-    | - | c    | d    |
+|   | 病例 | 对照 |
+|---|------|------|
+| + | a    | b    |
+| - | c    | d    |
 
-    | 因素1 \ 因素2 | + | - |
-    |---------------|---|---|
-    | +             | a | b |
-    | -             | c | d |
+| 因素1 \ 因素2 | + | - |
+|---------------|---|---|
+| +             | a | b |
+| -             | c | d |
 
 ## 实验性研究
 1. 临床研究的原则：对照、随机、盲法、重复 <!-- IMPORTANT -->
