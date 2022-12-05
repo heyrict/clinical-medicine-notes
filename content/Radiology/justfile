@@ -1,0 +1,52 @@
+CARD_DIR := "flashcards"
+
+clean:
+	fd -I '\.csv$' -x rm
+
+points2csv:
+	just convert_csv points
+
+convert_all:
+	#!/usr/bin/env bash
+	for f in `ls {{CARD_DIR}}/*.yaml`; do\
+		_fn=`echo $f | cut -d . -f 1`;\
+		echo "Converting ${_fn}.yaml to csv";\
+		just convert_csv ${_fn};\
+	done
+
+# Provided FILENAME (without extension), convert the yaml file into anki-compatible csv file
+convert_csv FILENAME:
+	yq -r '.[] | select(.cloze? == null) | [.UUID, .Q, .A, .created_time, "'"$(basename '{{FILENAME}}')"'"] | @csv' "{{FILENAME}}.yaml" > "{{FILENAME}}-qa.csv"
+	just _markdown_to_html "{{FILENAME}}-qa"
+	yq -r '.[] | select(.cloze? == 1) | [.UUID, .Q, .A, .created_time, "'"$(basename '{{FILENAME}}')"'"] | @csv' "{{FILENAME}}.yaml" > "{{FILENAME}}-cloze.csv"
+	just _markdown_to_html "{{FILENAME}}-cloze"
+
+_markdown_to_html FILENAME:
+	#!/usr/bin/env python
+	import markdown
+	import pandas as pd
+	from functools import partial
+	import re
+	import os
+
+	INLINE_MATH_RE = re.compile(r"(?<!\\)\$([^\$]+)\$")
+	BLOCK_MATH_RE = re.compile(r"(?<!\\)\$\$([^\$]+)\$\$")
+	markdownfn = partial(
+		markdown.markdown,
+		extensions=['tables', 'fenced_code'],
+	)
+
+	def mapfn(text):
+		text = markdownfn(text)
+		text = BLOCK_MATH_RE.sub(r"\\[\1\\]", text)
+		text = INLINE_MATH_RE.sub(r"\\(\1\\)", text)
+		return text
+
+	df = pd.read_csv("./{{FILENAME}}.csv", names=["UUID", "Q", "A", "created_time", "tags"])
+	if df.shape[0] == 0:
+		os.remove("./{{FILENAME}}.csv")
+		exit(0)
+
+	df.Q = df.Q.map(mapfn)
+	df.A = df.A.map(mapfn)
+	df.to_csv("./{{FILENAME}}.csv", header=False, index=False)
