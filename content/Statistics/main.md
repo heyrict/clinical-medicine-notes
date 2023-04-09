@@ -53,6 +53,9 @@ title: 统计学
         - 两样本: 配对秩和检验
         - 多样本: Friedman Test
 
+1. 协变量调整方法
+    - 残差: 用需调整的变量对需控制的变量做线性回归，预测值减真实值所得残差
+
 ## Student's t test
 1. General assumptions: $t = \frac{Z}{s} = \frac{\bar{X} - \mu}{stderr}$
 
