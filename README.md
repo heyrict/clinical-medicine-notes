@@ -92,7 +92,7 @@ just convert_all
 
 - Basic styling
 
-  ```csv
+  ```css
   .card { font-family: arial; font-size: 20px; color: #3c3836; background-color: #ebdbb2; }
   .card.nightMode { color: #ebdbb2; background-color: #000000; }
   .flexbox { display: flex; flex-direction: column; width: 100%; align-items: center; justify-contents: center; }
@@ -112,7 +112,7 @@ just convert_all
 
 - Cloze styling
 
-  ```csv
+  ```css
   .cloze { font-weight: bold; color: #b58900; } .nightMode .cloze { color: #b58900; }
   .card { font-family: arial; font-size: 20px; color: #3c3836; background-color: #ebdbb2; }
   .card.nightMode { color: #ebdbb2; background-color: #000000; }
