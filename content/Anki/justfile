@@ -28,8 +28,8 @@ _markdown_to_html FILENAME:
 		return text
 
 	df = pd.read_csv("./{{FILENAME}}.csv", names=["UUID", "Q", "A", "cloze", "created_time"])
-	df_qa = df.dropna(subset=["Q"])
-	df_cloze = df.dropna(subset=["cloze"])
+	df_qa = df.dropna(subset=["Q"]).copy()
+	df_cloze = df.dropna(subset=["cloze"]).copy()
 	df_qa.A = df_qa.A.map(mapfn)
 	df_cloze.cloze = df_cloze.cloze.map(mapfn)
 
